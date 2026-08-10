@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Noctua NH-D15",
+    "brand": "Noctua",
+    "type": "Air",
+    "tdp_support": 250,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200", "LGA2066"],
+    "radiator_size_mm": null,
+    "notes": "NSPR 183. TDP 250W approximate cooling capacity. Browser-verified sockets."
+  },
+  {
+    "name": "Noctua NH-U12A",
+    "brand": "Noctua",
+    "type": "Air",
+    "tdp_support": 180,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": null,
+    "notes": "Browser-verified sockets from noctua.at"
+  },
+  {
+    "name": "Noctua NH-L9i",
+    "brand": "Noctua",
+    "type": "Air",
+    "tdp_support": 65,
+    "socket_support": ["LGA1700", "LGA1851", "LGA1200", "LGA1150", "LGA1151"],
+    "radiator_size_mm": null,
+    "notes": "Low-profile cooler, browser-verified sockets"
+  },
+  {
+    "name": "be quiet! Dark Rock Pro 5",
+    "brand": "be quiet!",
+    "type": "Air",
+    "tdp_support": 270,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": null
+  },
+  {
+    "name": "be quiet! Dark Rock 4",
+    "brand": "be quiet!",
+    "type": "Air",
+    "tdp_support": 200,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": null
+  },
+  {
+    "name": "be quiet! Pure Loop 2 360",
+    "brand": "be quiet!",
+    "type": "AIO",
+    "tdp_support": 300,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": 360
+  },
+  {
+    "name": "Deepcool AK620",
+    "brand": "Deepcool",
+    "type": "Air",
+    "tdp_support": 260,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": null
+  },
+  {
+    "name": "Deepcool LE500 240",
+    "brand": "Deepcool",
+    "type": "AIO",
+    "tdp_support": 250,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": 240
+  },
+  {
+    "name": "Corsair iCUE H150i ELITE LCD XT",
+    "brand": "Corsair",
+    "type": "AIO",
+    "tdp_support": 350,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": 360
+  },
+  {
+    "name": "Corsair iCUE H100i ELITE LCD XT",
+    "brand": "Corsair",
+    "type": "AIO",
+    "tdp_support": 300,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": 240
+  },
+  {
+    "name": "NZXT Kraken 240",
+    "brand": "NZXT",
+    "type": "AIO",
+    "tdp_support": 300,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": 240
+  },
+  {
+    "name": "NZXT Kraken 360",
+    "brand": "NZXT",
+    "type": "AIO",
+    "tdp_support": 350,
+    "socket_support": ["LGA1700", "LGA1851", "AM5", "AM4", "LGA1200"],
+    "radiator_size_mm": 360
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "gpu": "AMD Radeon RX 9070",
+  "source": "exo.ir (based on TechPowerUp data)",
+  "preset": "Ultra Setting",
+  "benchmarks": [
+    {
+      "game": "Alan Wake II",
+      "fhd_fps": 126,
+      "2k_fps": 91,
+      "4k_fps": 52
+    },
+    {
+      "game": "Assassin's Creed Mirage",
+      "fhd_fps": 176,
+      "2k_fps": 144,
+      "4k_fps": 90
+    },
+    {
+      "game": "Baldur's Gate 3",
+      "fhd_fps": 195,
+      "2k_fps": 155,
+      "4k_fps": 87
+    },
+    {
+      "game": "Black Myth: Wukong",
+      "fhd_fps": 58,
+      "2k_fps": 44,
+      "4k_fps": 26
+    },
+    {
+      "game": "Cyberpunk 2077",
+      "fhd_fps": 172,
+      "2k_fps": 116,
+      "4k_fps": 57
+    },
+    {
+      "game": "Doom Eternal",
+      "fhd_fps": 263,
+      "2k_fps": 224,
+      "4k_fps": 145
+    },
+    {
+      "game": "Dragon Age: The Veilguard",
+      "fhd_fps": 99,
+      "2k_fps": 80,
+      "4k_fps": 52
+    },
+    {
+      "game": "God of War Ragnarök",
+      "fhd_fps": 142,
+      "2k_fps": 115,
+      "4k_fps": 73
+    },
+    {
+      "game": "Hogwarts Legacy",
+      "fhd_fps": 109,
+      "2k_fps": 84,
+      "4k_fps": 48
+    },
+    {
+      "game": "Horizon Forbidden West",
+      "fhd_fps": 137,
+      "2k_fps": 109,
+      "4k_fps": 69
+    },
+    {
+      "game": "Silent Hill 2",
+      "fhd_fps": 71,
+      "2k_fps": 48,
+      "4k_fps": 25
+    },
+    {
+      "game": "Warhammer 40,000: Space Marine 2",
+      "fhd_fps": 119,
+      "2k_fps": 90,
+      "4k_fps": 50
+    }
+  ]
+}

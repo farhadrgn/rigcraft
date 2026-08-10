@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Corsair RM750e",
+    "brand": "Corsair",
+    "wattage": 750,
+    "efficiency_rating": "80+ Gold"
+  },
+  {
+    "name": "Corsair RM850x",
+    "brand": "Corsair",
+    "wattage": 850,
+    "efficiency_rating": "80+ Gold"
+  },
+  {
+    "name": "Corsair HX1000i",
+    "brand": "Corsair",
+    "wattage": 1000,
+    "efficiency_rating": "80+ Platinum"
+  },
+  {
+    "name": "Seasonic Focus GX-750",
+    "brand": "Seasonic",
+    "wattage": 750,
+    "efficiency_rating": "80+ Gold"
+  },
+  {
+    "name": "Seasonic Prime TX-850",
+    "brand": "Seasonic",
+    "wattage": 850,
+    "efficiency_rating": "80+ Titanium"
+  },
+  {
+    "name": "Seasonic Focus PX-650",
+    "brand": "Seasonic",
+    "wattage": 650,
+    "efficiency_rating": "80+ Platinum"
+  },
+  {
+    "name": "be quiet! Pure Power 12 M 650W",
+    "brand": "be quiet!",
+    "wattage": 650,
+    "efficiency_rating": "80+ Gold"
+  },
+  {
+    "name": "be quiet! Straight Power 12 750W",
+    "brand": "be quiet!",
+    "wattage": 750,
+    "efficiency_rating": "80+ Platinum"
+  },
+  {
+    "name": "EVGA SuperNOVA 850 G7",
+    "brand": "EVGA",
+    "wattage": 850,
+    "efficiency_rating": "80+ Gold"
+  },
+  {
+    "name": "EVGA SuperNOVA 1000 G7",
+    "brand": "EVGA",
+    "wattage": 1000,
+    "efficiency_rating": "80+ Gold"
+  }
+]

@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Builder - RigCraft{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/builder.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Build Your PC</h1>
+
+{{ gpus_json|json_script:"gpus-data" }}
+{{ cpus_json|json_script:"cpus-data" }}
+{{ motherboards_json|json_script:"motherboards-data" }}
+{{ coolers_json|json_script:"coolers-data" }}
+{{ rams_json|json_script:"rams-data" }}
+{{ storages_json|json_script:"storages-data" }}
+{{ psus_json|json_script:"psus-data" }}
+{{ cases_json|json_script:"cases-data" }}
+{{ gpu_benchmarks_json|json_script:"gpu-benchmarks-data" }}
+{{ initial_selection_json|json_script:"initial-selection-data" }}
+
+<div id="builder-root"
+     data-check-url="{% url 'builder_check' %}"
+     data-is-authenticated="{{ user.is_authenticated|yesno:'true,false' }}">
+
+    <div class="d-flex flex-wrap gap-2 mb-4" id="step-indicator"></div>
+
+    <div id="step-panel" class="card">
+        <div class="card-body">
+            <h2 id="step-title" class="h5 mb-3"></h2>
+            <div id="step-options" class="row g-3"></div>
+            <div class="d-flex align-items-center mt-3">
+                <button id="prev-step-btn" type="button" class="btn btn-outline-light btn-sm">Back</button>
+                <nav aria-label="Options pages" class="flex-grow-1">
+                    <ul class="pagination justify-content-center mb-0" id="step-pagination"></ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4 d-flex justify-content-between align-items-start flex-wrap gap-3">
+        <div>
+            <div id="bottleneck-status" class="text-body-secondary mb-2"></div>
+            <div id="violation-list"></div>
+        </div>
+        <div>
+            {% if user.is_authenticated %}
+            <form method="post" action="{% url 'builder_save' %}" id="save-form" class="d-flex align-items-center gap-2">
+                {% csrf_token %}
+                <input type="hidden" name="build_id" value="{{ initial_build.pk|default:'' }}">
+                <input type="text" name="name" class="form-control form-control-sm" placeholder="Build name"
+                       value="{{ initial_build.name|default:'' }}" required>
+                <input type="hidden" name="target_resolution" id="save-resolution">
+                <input type="hidden" name="gpu" id="save-gpu">
+                <input type="hidden" name="cpu" id="save-cpu">
+                <input type="hidden" name="motherboard" id="save-motherboard">
+                <input type="hidden" name="cooler" id="save-cooler">
+                <input type="hidden" name="ram" id="save-ram">
+                <input type="hidden" name="storage" id="save-storage">
+                <input type="hidden" name="psu" id="save-psu">
+                <input type="hidden" name="case" id="save-case">
+                <button type="submit" class="btn btn-primary btn-sm">Save</button>
+            </form>
+            {% else %}
+            <a href="{% url 'login' %}" class="btn btn-outline-light btn-sm">Log in to save</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="mt-4" id="fps-panel"></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/builder.js' %}"></script>
+{% endblock %}

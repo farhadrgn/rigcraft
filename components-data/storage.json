@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Samsung 990 Pro 1TB",
+    "brand": "Samsung",
+    "capacity_gb": 1000,
+    "type": "NVMe",
+    "interface_generation": "Gen4",
+    "read_speed_mbps": 7450,
+    "write_speed_mbps": 6900
+  },
+  {
+    "name": "Samsung 990 Pro 2TB",
+    "brand": "Samsung",
+    "capacity_gb": 2000,
+    "type": "NVMe",
+    "interface_generation": "Gen4",
+    "read_speed_mbps": 7450,
+    "write_speed_mbps": 6900
+  },
+  {
+    "name": "Samsung 990 EVO Plus 1TB",
+    "brand": "Samsung",
+    "capacity_gb": 1000,
+    "type": "NVMe",
+    "interface_generation": "Gen5",
+    "read_speed_mbps": 7250,
+    "write_speed_mbps": 6300
+  },
+  {
+    "name": "WD Black SN850X 1TB",
+    "brand": "WD",
+    "capacity_gb": 1000,
+    "type": "NVMe",
+    "interface_generation": "Gen4",
+    "read_speed_mbps": 7300,
+    "write_speed_mbps": 6300
+  },
+  {
+    "name": "WD Black SN850X 2TB",
+    "brand": "WD",
+    "capacity_gb": 2000,
+    "type": "NVMe",
+    "interface_generation": "Gen4",
+    "read_speed_mbps": 7300,
+    "write_speed_mbps": 6600
+  },
+  {
+    "name": "WD Black SN7100 1TB",
+    "brand": "WD",
+    "capacity_gb": 1000,
+    "type": "NVMe",
+    "interface_generation": "Gen5",
+    "read_speed_mbps": 7250,
+    "write_speed_mbps": 6900
+  },
+  {
+    "name": "MSI Spatium M580 Frozr 1TB",
+    "brand": "MSI",
+    "capacity_gb": 1000,
+    "type": "NVMe",
+    "interface_generation": "Gen5",
+    "read_speed_mbps": 14600,
+    "write_speed_mbps": 12700
+  },
+  {
+    "name": "Crucial T700 1TB",
+    "brand": "Crucial",
+    "capacity_gb": 1000,
+    "type": "NVMe",
+    "interface_generation": "Gen5",
+    "read_speed_mbps": 12400,
+    "write_speed_mbps": 11800
+  },
+  {
+    "name": "Crucial T500 1TB",
+    "brand": "Crucial",
+    "capacity_gb": 1000,
+    "type": "NVMe",
+    "interface_generation": "Gen4",
+    "read_speed_mbps": 7400,
+    "write_speed_mbps": 7000
+  }
+]

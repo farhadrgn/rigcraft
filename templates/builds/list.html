@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}My Builds - RigCraft{% endblock %}
+{% block content %}
+<h1 class="mb-4">My Builds</h1>
+{% if builds %}
+<div class="list-group">
+    {% for build in builds %}
+    <a href="{% url 'build_detail' build.pk %}"
+       class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span>{{ build.name }}</span>
+        <span class="text-body-secondary rc-mono">{{ build.updated_at|date:"Y-m-d H:i" }}</span>
+    </a>
+    {% endfor %}
+</div>
+{% else %}
+<p class="text-body-secondary">You have no builds yet. <a href="{% url 'builder' %}">Start one</a>.</p>
+{% endif %}
+{% endblock %}

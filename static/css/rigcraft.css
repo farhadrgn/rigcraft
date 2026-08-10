@@ -1,0 +1,92 @@
+:root {
+  --rc-bg: #202124;
+  --rc-surface: #2d2e30;
+  --rc-surface-hover: #3c4043;
+  --rc-border: #3c4043;
+  --rc-text: #e8eaed;
+  --rc-text-muted: #9aa0a6;
+  --rc-accent: #8ab4f8;
+  --rc-accent-strong: #4285f4;
+  --rc-selected-tint: rgba(138, 180, 248, 0.12);
+}
+
+body {
+  background-color: var(--rc-bg);
+  color: var(--rc-text);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.rc-mono {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.navbar {
+  background-color: var(--rc-surface) !important;
+  border-bottom: 1px solid var(--rc-border);
+}
+
+.card {
+  background-color: var(--rc-surface);
+  border-color: var(--rc-border);
+}
+
+/* Hover lightens the surface -- darkening would reduce contrast on an
+   already-dark page. */
+.btn-outline-light:hover {
+  background-color: var(--rc-surface-hover);
+}
+
+.btn-primary {
+  background-color: var(--rc-accent-strong);
+  border-color: var(--rc-accent-strong);
+}
+
+.btn-primary:hover {
+  background-color: var(--rc-accent);
+  border-color: var(--rc-accent);
+}
+
+/* Django's default form rendering (form.as_p) needs manual dark-theme
+   styling since it emits plain <input> tags with no Bootstrap classes. */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  background-color: var(--rc-surface);
+  border: 1px solid var(--rc-border);
+  color: var(--rc-text);
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  outline: 2px solid var(--rc-accent);
+  outline-offset: 1px;
+  border-color: var(--rc-accent);
+}
+
+.helptext {
+  color: var(--rc-text-muted);
+  font-size: 0.875rem;
+}
+
+ul.errorlist {
+  color: #f28b82;
+  list-style: none;
+  padding-left: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .card,
+  .btn,
+  a {
+    transition:
+      background-color 200ms ease,
+      border-color 200ms ease,
+      color 200ms ease,
+      opacity 200ms ease;
+  }
+}

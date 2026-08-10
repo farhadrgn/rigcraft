@@ -1,0 +1,74 @@
+[
+  {
+    "name": "NVIDIA GeForce RTX 5090",
+    "brand": "NVIDIA",
+    "vram": 32,
+    "tdp": 575,
+    "length_mm": 304,
+    "notes": "Founders Edition"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5080",
+    "brand": "NVIDIA",
+    "vram": 16,
+    "tdp": 360,
+    "length_mm": 304,
+    "notes": "Founders Edition"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5070 Ti",
+    "brand": "NVIDIA",
+    "vram": 16,
+    "tdp": 300,
+    "length_mm": 304,
+    "notes": "Founders Edition"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5070",
+    "brand": "NVIDIA",
+    "vram": 12,
+    "tdp": 250,
+    "length_mm": 267,
+    "notes": "Founders Edition"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5060 Ti",
+    "brand": "NVIDIA",
+    "vram": 16,
+    "tdp": 180,
+    "length_mm": 241,
+    "notes": "Reference specs"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5060",
+    "brand": "NVIDIA",
+    "vram": 8,
+    "tdp": 150,
+    "length_mm": 241,
+    "notes": "Reference specs"
+  },
+  {
+    "name": "AMD Radeon RX 9070 XT",
+    "brand": "AMD",
+    "vram": 16,
+    "tdp": 300,
+    "length_mm": 267,
+    "notes": "Reference card"
+  },
+  {
+    "name": "AMD Radeon RX 9070",
+    "brand": "AMD",
+    "vram": 16,
+    "tdp": 200,
+    "length_mm": 267,
+    "notes": "Reference card"
+  },
+  {
+    "name": "AMD Radeon RX 9060 XT",
+    "brand": "AMD",
+    "vram": 16,
+    "tdp": 150,
+    "length_mm": 241,
+    "notes": "Board partner mid-size"
+  }
+]

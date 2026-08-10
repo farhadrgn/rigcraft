@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Intel Core i5-14600K",
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "ddr_support": [
+      "DDR4",
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4268
+  },
+  {
+    "name": "Intel Core i7-14700K",
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "ddr_support": [
+      "DDR4",
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4455
+  },
+  {
+    "name": "Intel Core i9-14900K",
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "ddr_support": [
+      "DDR4",
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4690
+  },
+  {
+    "name": "Intel Core Ultra 5 245K",
+    "brand": "Intel",
+    "socket": "LGA1851",
+    "tdp": 125,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4717
+  },
+  {
+    "name": "Intel Core Ultra 7 265K",
+    "brand": "Intel",
+    "socket": "LGA1851",
+    "tdp": 125,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4928
+  },
+  {
+    "name": "Intel Core Ultra 9 285K",
+    "brand": "Intel",
+    "socket": "LGA1851",
+    "tdp": 125,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 5087
+  },
+  {
+    "name": "AMD Ryzen 5 7600X",
+    "brand": "AMD",
+    "socket": "AM5",
+    "tdp": 105,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4130
+  },
+  {
+    "name": "AMD Ryzen 7 7700X",
+    "brand": "AMD",
+    "socket": "AM5",
+    "tdp": 105,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4177
+  },
+  {
+    "name": "AMD Ryzen 5 9600X",
+    "brand": "AMD",
+    "socket": "AM5",
+    "tdp": 65,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4572
+  },
+  {
+    "name": "AMD Ryzen 7 9700X",
+    "brand": "AMD",
+    "socket": "AM5",
+    "tdp": 65,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4646
+  },
+  {
+    "name": "AMD Ryzen 9 9900X",
+    "brand": "AMD",
+    "socket": "AM5",
+    "tdp": 120,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4675
+  },
+  {
+    "name": "AMD Ryzen 9 9950X",
+    "brand": "AMD",
+    "socket": "AM5",
+    "tdp": 170,
+    "ddr_support": [
+      "DDR5"
+    ],
+    "benchmark_score_single_thread": 4729
+  }
+]

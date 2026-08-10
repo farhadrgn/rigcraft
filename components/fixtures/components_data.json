@@ -1,0 +1,3912 @@
+[
+  {
+    "model": "components.gpu",
+    "pk": 1,
+    "fields": {
+      "name": "NVIDIA GeForce RTX 5090",
+      "brand": "NVIDIA",
+      "vram": 32,
+      "tdp": 575,
+      "benchmark_score_3d": 14235,
+      "length_mm": 304
+    }
+  },
+  {
+    "model": "components.gpu",
+    "pk": 2,
+    "fields": {
+      "name": "NVIDIA GeForce RTX 5080",
+      "brand": "NVIDIA",
+      "vram": 16,
+      "tdp": 360,
+      "benchmark_score_3d": 8532,
+      "length_mm": 304
+    }
+  },
+  {
+    "model": "components.gpu",
+    "pk": 3,
+    "fields": {
+      "name": "NVIDIA GeForce RTX 5070 Ti",
+      "brand": "NVIDIA",
+      "vram": 16,
+      "tdp": 300,
+      "benchmark_score_3d": 6474,
+      "length_mm": 304
+    }
+  },
+  {
+    "model": "components.gpu",
+    "pk": 4,
+    "fields": {
+      "name": "NVIDIA GeForce RTX 5070",
+      "brand": "NVIDIA",
+      "vram": 12,
+      "tdp": 250,
+      "benchmark_score_3d": 4991,
+      "length_mm": 267
+    }
+  },
+  {
+    "model": "components.gpu",
+    "pk": 5,
+    "fields": {
+      "name": "NVIDIA GeForce RTX 5060 Ti",
+      "brand": "NVIDIA",
+      "vram": 16,
+      "tdp": 180,
+      "benchmark_score_3d": 3577,
+      "length_mm": 241
+    }
+  },
+  {
+    "model": "components.gpu",
+    "pk": 6,
+    "fields": {
+      "name": "NVIDIA GeForce RTX 5060",
+      "brand": "NVIDIA",
+      "vram": 8,
+      "tdp": 150,
+      "benchmark_score_3d": 3149,
+      "length_mm": 241
+    }
+  },
+  {
+    "model": "components.gpu",
+    "pk": 7,
+    "fields": {
+      "name": "AMD Radeon RX 9070 XT",
+      "brand": "AMD",
+      "vram": 16,
+      "tdp": 300,
+      "benchmark_score_3d": 7153,
+      "length_mm": 267
+    }
+  },
+  {
+    "model": "components.gpu",
+    "pk": 8,
+    "fields": {
+      "name": "AMD Radeon RX 9070",
+      "brand": "AMD",
+      "vram": 16,
+      "tdp": 200,
+      "benchmark_score_3d": 6019,
+      "length_mm": 267
+    }
+  },
+  {
+    "model": "components.gpu",
+    "pk": 9,
+    "fields": {
+      "name": "AMD Radeon RX 9060 XT",
+      "brand": "AMD",
+      "vram": 16,
+      "tdp": 150,
+      "benchmark_score_3d": 3719,
+      "length_mm": 241
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 1,
+    "fields": {
+      "name": "Intel Core i5-14600K",
+      "brand": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "ddr_support": "DDR4,DDR5",
+      "benchmark_score_single_thread": 4268
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 2,
+    "fields": {
+      "name": "Intel Core i7-14700K",
+      "brand": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "ddr_support": "DDR4,DDR5",
+      "benchmark_score_single_thread": 4455
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 3,
+    "fields": {
+      "name": "Intel Core i9-14900K",
+      "brand": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "ddr_support": "DDR4,DDR5",
+      "benchmark_score_single_thread": 4690
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 4,
+    "fields": {
+      "name": "Intel Core Ultra 5 245K",
+      "brand": "Intel",
+      "socket": "LGA1851",
+      "tdp": 125,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 4717
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 5,
+    "fields": {
+      "name": "Intel Core Ultra 7 265K",
+      "brand": "Intel",
+      "socket": "LGA1851",
+      "tdp": 125,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 4928
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 6,
+    "fields": {
+      "name": "Intel Core Ultra 9 285K",
+      "brand": "Intel",
+      "socket": "LGA1851",
+      "tdp": 125,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 5087
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 7,
+    "fields": {
+      "name": "AMD Ryzen 5 7600X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "tdp": 105,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 4130
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 8,
+    "fields": {
+      "name": "AMD Ryzen 7 7700X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "tdp": 105,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 4177
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 9,
+    "fields": {
+      "name": "AMD Ryzen 5 9600X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "tdp": 65,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 4572
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 10,
+    "fields": {
+      "name": "AMD Ryzen 7 9700X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "tdp": 65,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 4646
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 11,
+    "fields": {
+      "name": "AMD Ryzen 9 9900X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "tdp": 120,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 4675
+    }
+  },
+  {
+    "model": "components.cpu",
+    "pk": 12,
+    "fields": {
+      "name": "AMD Ryzen 9 9950X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "tdp": 170,
+      "ddr_support": "DDR5",
+      "benchmark_score_single_thread": 4729
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 1,
+    "fields": {
+      "name": "ROG STRIX Z790-A GAMING WIFI",
+      "brand": "ASUS",
+      "socket": "LGA1700",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 790
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 2,
+    "fields": {
+      "name": "TUF GAMING B760M-PLUS WIFI",
+      "brand": "ASUS",
+      "socket": "LGA1700",
+      "ddr_support": "DDR5",
+      "form_factor": "Micro-ATX",
+      "chipset_tier_number": 760
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 3,
+    "fields": {
+      "name": "MSI MAG Z790 TOMAHAWK WIFI",
+      "brand": "MSI",
+      "socket": "LGA1700",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 790
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 4,
+    "fields": {
+      "name": "MSI MAG B760M MORTAR WIFI",
+      "brand": "MSI",
+      "socket": "LGA1700",
+      "ddr_support": "DDR5",
+      "form_factor": "Micro-ATX",
+      "chipset_tier_number": 760
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 5,
+    "fields": {
+      "name": "Gigabyte Z790 AORUS ELITE AX",
+      "brand": "Gigabyte",
+      "socket": "LGA1700",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 790
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 6,
+    "fields": {
+      "name": "ASUS PRIME B760M-A AX DDR4",
+      "brand": "ASUS",
+      "socket": "LGA1700",
+      "ddr_support": "DDR4",
+      "form_factor": "Micro-ATX",
+      "chipset_tier_number": 760
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 7,
+    "fields": {
+      "name": "MSI PRO B760M-A WIFI DDR4",
+      "brand": "MSI",
+      "socket": "LGA1700",
+      "ddr_support": "DDR4",
+      "form_factor": "Micro-ATX",
+      "chipset_tier_number": 760
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 8,
+    "fields": {
+      "name": "ROG STRIX Z890-A GAMING WIFI",
+      "brand": "ASUS",
+      "socket": "LGA1851",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 890
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 9,
+    "fields": {
+      "name": "MSI MPG Z890 EDGE TI WIFI",
+      "brand": "MSI",
+      "socket": "LGA1851",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 890
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 10,
+    "fields": {
+      "name": "TUF GAMING B860M-PLUS WIFI",
+      "brand": "ASUS",
+      "socket": "LGA1851",
+      "ddr_support": "DDR5",
+      "form_factor": "Micro-ATX",
+      "chipset_tier_number": 860
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 11,
+    "fields": {
+      "name": "ROG STRIX X670E-F GAMING WIFI",
+      "brand": "ASUS",
+      "socket": "AM5",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 670
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 12,
+    "fields": {
+      "name": "TUF GAMING B650-PLUS WIFI",
+      "brand": "ASUS",
+      "socket": "AM5",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 650
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 13,
+    "fields": {
+      "name": "MSI MAG B650 TOMAHAWK WIFI",
+      "brand": "MSI",
+      "socket": "AM5",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 650
+    }
+  },
+  {
+    "model": "components.motherboard",
+    "pk": 14,
+    "fields": {
+      "name": "Gigabyte B650 AORUS ELITE AX",
+      "brand": "Gigabyte",
+      "socket": "AM5",
+      "ddr_support": "DDR5",
+      "form_factor": "ATX",
+      "chipset_tier_number": 650
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 1,
+    "fields": {
+      "name": "Noctua NH-D15",
+      "brand": "Noctua",
+      "type": "Air",
+      "tdp_support": 250,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200,LGA2066",
+      "radiator_size_mm": null
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 2,
+    "fields": {
+      "name": "Noctua NH-U12A",
+      "brand": "Noctua",
+      "type": "Air",
+      "tdp_support": 180,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": null
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 3,
+    "fields": {
+      "name": "Noctua NH-L9i",
+      "brand": "Noctua",
+      "type": "Air",
+      "tdp_support": 65,
+      "socket_support": "LGA1700,LGA1851,LGA1200,LGA1150,LGA1151",
+      "radiator_size_mm": null
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 4,
+    "fields": {
+      "name": "be quiet! Dark Rock Pro 5",
+      "brand": "be quiet!",
+      "type": "Air",
+      "tdp_support": 270,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": null
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 5,
+    "fields": {
+      "name": "be quiet! Dark Rock 4",
+      "brand": "be quiet!",
+      "type": "Air",
+      "tdp_support": 200,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": null
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 6,
+    "fields": {
+      "name": "be quiet! Pure Loop 2 360",
+      "brand": "be quiet!",
+      "type": "AIO",
+      "tdp_support": 300,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 7,
+    "fields": {
+      "name": "Deepcool AK620",
+      "brand": "Deepcool",
+      "type": "Air",
+      "tdp_support": 260,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": null
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 8,
+    "fields": {
+      "name": "Deepcool LE500 240",
+      "brand": "Deepcool",
+      "type": "AIO",
+      "tdp_support": 250,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": 240
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 9,
+    "fields": {
+      "name": "Corsair iCUE H150i ELITE LCD XT",
+      "brand": "Corsair",
+      "type": "AIO",
+      "tdp_support": 350,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 10,
+    "fields": {
+      "name": "Corsair iCUE H100i ELITE LCD XT",
+      "brand": "Corsair",
+      "type": "AIO",
+      "tdp_support": 300,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": 240
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 11,
+    "fields": {
+      "name": "NZXT Kraken 240",
+      "brand": "NZXT",
+      "type": "AIO",
+      "tdp_support": 300,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": 240
+    }
+  },
+  {
+    "model": "components.cpucooler",
+    "pk": 12,
+    "fields": {
+      "name": "NZXT Kraken 360",
+      "brand": "NZXT",
+      "type": "AIO",
+      "tdp_support": 350,
+      "socket_support": "LGA1700,LGA1851,AM5,AM4,LGA1200",
+      "radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 1,
+    "fields": {
+      "name": "Corsair Vengeance DDR5 5600 32GB",
+      "brand": "Corsair",
+      "capacity_gb": 32,
+      "ddr_type": "DDR5",
+      "frequency_mhz": 5600,
+      "cas_latency": 36
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 2,
+    "fields": {
+      "name": "Corsair Vengeance DDR5 6000 32GB",
+      "brand": "Corsair",
+      "capacity_gb": 32,
+      "ddr_type": "DDR5",
+      "frequency_mhz": 6000,
+      "cas_latency": 30
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 3,
+    "fields": {
+      "name": "Corsair Vengeance DDR5 6400 32GB",
+      "brand": "Corsair",
+      "capacity_gb": 32,
+      "ddr_type": "DDR5",
+      "frequency_mhz": 6400,
+      "cas_latency": 32
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 4,
+    "fields": {
+      "name": "G.Skill Trident Z5 DDR5 6000 32GB",
+      "brand": "G.Skill",
+      "capacity_gb": 32,
+      "ddr_type": "DDR5",
+      "frequency_mhz": 6000,
+      "cas_latency": 30
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 5,
+    "fields": {
+      "name": "G.Skill Trident Z5 DDR5 6400 32GB",
+      "brand": "G.Skill",
+      "capacity_gb": 32,
+      "ddr_type": "DDR5",
+      "frequency_mhz": 6400,
+      "cas_latency": 32
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 6,
+    "fields": {
+      "name": "G.Skill Flare X5 DDR5 6000 32GB",
+      "brand": "G.Skill",
+      "capacity_gb": 32,
+      "ddr_type": "DDR5",
+      "frequency_mhz": 6000,
+      "cas_latency": 30
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 7,
+    "fields": {
+      "name": "Kingston Fury Beast DDR5 5600 32GB",
+      "brand": "Kingston",
+      "capacity_gb": 32,
+      "ddr_type": "DDR5",
+      "frequency_mhz": 5600,
+      "cas_latency": 36
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 8,
+    "fields": {
+      "name": "Kingston Fury Beast DDR4 3200 16GB",
+      "brand": "Kingston",
+      "capacity_gb": 16,
+      "ddr_type": "DDR4",
+      "frequency_mhz": 3200,
+      "cas_latency": 16
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 9,
+    "fields": {
+      "name": "Crucial Pro DDR5 5600 32GB",
+      "brand": "Crucial",
+      "capacity_gb": 32,
+      "ddr_type": "DDR5",
+      "frequency_mhz": 5600,
+      "cas_latency": 36
+    }
+  },
+  {
+    "model": "components.ram",
+    "pk": 10,
+    "fields": {
+      "name": "Corsair Vengeance DDR4 3200 16GB",
+      "brand": "Corsair",
+      "capacity_gb": 16,
+      "ddr_type": "DDR4",
+      "frequency_mhz": 3200,
+      "cas_latency": 16
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 1,
+    "fields": {
+      "name": "Samsung 990 Pro 1TB",
+      "brand": "Samsung",
+      "capacity_gb": 1000,
+      "type": "NVMe",
+      "interface_generation": "Gen4",
+      "read_speed_mbps": 7450,
+      "write_speed_mbps": 6900
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 2,
+    "fields": {
+      "name": "Samsung 990 Pro 2TB",
+      "brand": "Samsung",
+      "capacity_gb": 2000,
+      "type": "NVMe",
+      "interface_generation": "Gen4",
+      "read_speed_mbps": 7450,
+      "write_speed_mbps": 6900
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 3,
+    "fields": {
+      "name": "Samsung 990 EVO Plus 1TB",
+      "brand": "Samsung",
+      "capacity_gb": 1000,
+      "type": "NVMe",
+      "interface_generation": "Gen5",
+      "read_speed_mbps": 7250,
+      "write_speed_mbps": 6300
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 4,
+    "fields": {
+      "name": "WD Black SN850X 1TB",
+      "brand": "WD",
+      "capacity_gb": 1000,
+      "type": "NVMe",
+      "interface_generation": "Gen4",
+      "read_speed_mbps": 7300,
+      "write_speed_mbps": 6300
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 5,
+    "fields": {
+      "name": "WD Black SN850X 2TB",
+      "brand": "WD",
+      "capacity_gb": 2000,
+      "type": "NVMe",
+      "interface_generation": "Gen4",
+      "read_speed_mbps": 7300,
+      "write_speed_mbps": 6600
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 6,
+    "fields": {
+      "name": "WD Black SN7100 1TB",
+      "brand": "WD",
+      "capacity_gb": 1000,
+      "type": "NVMe",
+      "interface_generation": "Gen5",
+      "read_speed_mbps": 7250,
+      "write_speed_mbps": 6900
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 7,
+    "fields": {
+      "name": "MSI Spatium M580 Frozr 1TB",
+      "brand": "MSI",
+      "capacity_gb": 1000,
+      "type": "NVMe",
+      "interface_generation": "Gen5",
+      "read_speed_mbps": 14600,
+      "write_speed_mbps": 12700
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 8,
+    "fields": {
+      "name": "Crucial T700 1TB",
+      "brand": "Crucial",
+      "capacity_gb": 1000,
+      "type": "NVMe",
+      "interface_generation": "Gen5",
+      "read_speed_mbps": 12400,
+      "write_speed_mbps": 11800
+    }
+  },
+  {
+    "model": "components.storage",
+    "pk": 9,
+    "fields": {
+      "name": "Crucial T500 1TB",
+      "brand": "Crucial",
+      "capacity_gb": 1000,
+      "type": "NVMe",
+      "interface_generation": "Gen4",
+      "read_speed_mbps": 7400,
+      "write_speed_mbps": 7000
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 1,
+    "fields": {
+      "name": "Corsair RM750e",
+      "brand": "Corsair",
+      "wattage": 750,
+      "efficiency_rating": "80+ Gold"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 2,
+    "fields": {
+      "name": "Corsair RM850x",
+      "brand": "Corsair",
+      "wattage": 850,
+      "efficiency_rating": "80+ Gold"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 3,
+    "fields": {
+      "name": "Corsair HX1000i",
+      "brand": "Corsair",
+      "wattage": 1000,
+      "efficiency_rating": "80+ Platinum"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 4,
+    "fields": {
+      "name": "Seasonic Focus GX-750",
+      "brand": "Seasonic",
+      "wattage": 750,
+      "efficiency_rating": "80+ Gold"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 5,
+    "fields": {
+      "name": "Seasonic Prime TX-850",
+      "brand": "Seasonic",
+      "wattage": 850,
+      "efficiency_rating": "80+ Titanium"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 6,
+    "fields": {
+      "name": "Seasonic Focus PX-650",
+      "brand": "Seasonic",
+      "wattage": 650,
+      "efficiency_rating": "80+ Platinum"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 7,
+    "fields": {
+      "name": "be quiet! Pure Power 12 M 650W",
+      "brand": "be quiet!",
+      "wattage": 650,
+      "efficiency_rating": "80+ Gold"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 8,
+    "fields": {
+      "name": "be quiet! Straight Power 12 750W",
+      "brand": "be quiet!",
+      "wattage": 750,
+      "efficiency_rating": "80+ Platinum"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 9,
+    "fields": {
+      "name": "EVGA SuperNOVA 850 G7",
+      "brand": "EVGA",
+      "wattage": 850,
+      "efficiency_rating": "80+ Gold"
+    }
+  },
+  {
+    "model": "components.psu",
+    "pk": 10,
+    "fields": {
+      "name": "EVGA SuperNOVA 1000 G7",
+      "brand": "EVGA",
+      "wattage": 1000,
+      "efficiency_rating": "80+ Gold"
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 1,
+    "fields": {
+      "name": "NZXT H7 Flow",
+      "brand": "NZXT",
+      "supported_form_factors": "ATX,Micro-ATX,Mini-ITX",
+      "max_gpu_length_mm": 400,
+      "max_radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 2,
+    "fields": {
+      "name": "NZXT H5 Flow",
+      "brand": "NZXT",
+      "supported_form_factors": "ATX,Micro-ATX,Mini-ITX",
+      "max_gpu_length_mm": 388,
+      "max_radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 3,
+    "fields": {
+      "name": "NZXT H210",
+      "brand": "NZXT",
+      "supported_form_factors": "Mini-ITX",
+      "max_gpu_length_mm": 325,
+      "max_radiator_size_mm": 240
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 4,
+    "fields": {
+      "name": "Corsair 4000D Airflow",
+      "brand": "Corsair",
+      "supported_form_factors": "ATX,Micro-ATX,Mini-ITX",
+      "max_gpu_length_mm": 360,
+      "max_radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 5,
+    "fields": {
+      "name": "Corsair 5000D Airflow",
+      "brand": "Corsair",
+      "supported_form_factors": "ATX,Micro-ATX,Mini-ITX",
+      "max_gpu_length_mm": 400,
+      "max_radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 6,
+    "fields": {
+      "name": "Lian Li O11 Dynamic EVO",
+      "brand": "Lian Li",
+      "supported_form_factors": "ATX,Micro-ATX,Mini-ITX",
+      "max_gpu_length_mm": 422,
+      "max_radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 7,
+    "fields": {
+      "name": "Lian Li Dan A3",
+      "brand": "Lian Li",
+      "supported_form_factors": "Micro-ATX,Mini-ITX",
+      "max_gpu_length_mm": 362,
+      "max_radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 8,
+    "fields": {
+      "name": "Fractal Design North",
+      "brand": "Fractal Design",
+      "supported_form_factors": "ATX,Micro-ATX,Mini-ITX",
+      "max_gpu_length_mm": 355,
+      "max_radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.case",
+    "pk": 9,
+    "fields": {
+      "name": "Fractal Design Meshify 2",
+      "brand": "Fractal Design",
+      "supported_form_factors": "ATX,Micro-ATX,Mini-ITX",
+      "max_gpu_length_mm": 491,
+      "max_radiator_size_mm": 360
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 1,
+    "fields": {
+      "gpu": 6,
+      "game": "Alan Wake II",
+      "resolution": "1080p",
+      "fps": 66
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 2,
+    "fields": {
+      "gpu": 6,
+      "game": "Alan Wake II",
+      "resolution": "1440p",
+      "fps": 47
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 3,
+    "fields": {
+      "gpu": 6,
+      "game": "Alan Wake II",
+      "resolution": "4K",
+      "fps": 25
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 4,
+    "fields": {
+      "gpu": 6,
+      "game": "Baldur's Gate 3",
+      "resolution": "1080p",
+      "fps": 121
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 5,
+    "fields": {
+      "gpu": 6,
+      "game": "Baldur's Gate 3",
+      "resolution": "1440p",
+      "fps": 87
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 6,
+    "fields": {
+      "gpu": 6,
+      "game": "Baldur's Gate 3",
+      "resolution": "4K",
+      "fps": 46
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 7,
+    "fields": {
+      "gpu": 6,
+      "game": "Black Myth: Wukong",
+      "resolution": "1080p",
+      "fps": 35
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 8,
+    "fields": {
+      "gpu": 6,
+      "game": "Black Myth: Wukong",
+      "resolution": "1440p",
+      "fps": 27
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 9,
+    "fields": {
+      "gpu": 6,
+      "game": "Black Myth: Wukong",
+      "resolution": "4K",
+      "fps": 9
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 10,
+    "fields": {
+      "gpu": 6,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 102
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 11,
+    "fields": {
+      "gpu": 6,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 62
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 12,
+    "fields": {
+      "gpu": 6,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 28
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 13,
+    "fields": {
+      "gpu": 6,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 157
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 14,
+    "fields": {
+      "gpu": 6,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 107
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 15,
+    "fields": {
+      "gpu": 6,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 67
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 16,
+    "fields": {
+      "gpu": 6,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1080p",
+      "fps": 65
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 17,
+    "fields": {
+      "gpu": 6,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1440p",
+      "fps": 49
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 18,
+    "fields": {
+      "gpu": 6,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "4K",
+      "fps": 24
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 19,
+    "fields": {
+      "gpu": 6,
+      "game": "Elden Ring",
+      "resolution": "1080p",
+      "fps": 140
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 20,
+    "fields": {
+      "gpu": 6,
+      "game": "Elden Ring",
+      "resolution": "1440p",
+      "fps": 98
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 21,
+    "fields": {
+      "gpu": 6,
+      "game": "Elden Ring",
+      "resolution": "4K",
+      "fps": 56
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 22,
+    "fields": {
+      "gpu": 6,
+      "game": "God of War Ragnarök",
+      "resolution": "1080p",
+      "fps": 85
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 23,
+    "fields": {
+      "gpu": 6,
+      "game": "God of War Ragnarök",
+      "resolution": "1440p",
+      "fps": 66
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 24,
+    "fields": {
+      "gpu": 6,
+      "game": "God of War Ragnarök",
+      "resolution": "4K",
+      "fps": 38
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 25,
+    "fields": {
+      "gpu": 6,
+      "game": "Hogwarts Legacy",
+      "resolution": "1080p",
+      "fps": 73
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 26,
+    "fields": {
+      "gpu": 6,
+      "game": "Hogwarts Legacy",
+      "resolution": "1440p",
+      "fps": 51
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 27,
+    "fields": {
+      "gpu": 6,
+      "game": "Hogwarts Legacy",
+      "resolution": "4K",
+      "fps": 29
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 28,
+    "fields": {
+      "gpu": 6,
+      "game": "Horizon Forbidden West",
+      "resolution": "1080p",
+      "fps": 83
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 29,
+    "fields": {
+      "gpu": 6,
+      "game": "Horizon Forbidden West",
+      "resolution": "1440p",
+      "fps": 62
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 30,
+    "fields": {
+      "gpu": 6,
+      "game": "Horizon Forbidden West",
+      "resolution": "4K",
+      "fps": 37
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 31,
+    "fields": {
+      "gpu": 6,
+      "game": "Starfield",
+      "resolution": "1080p",
+      "fps": 65
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 32,
+    "fields": {
+      "gpu": 6,
+      "game": "Starfield",
+      "resolution": "1440p",
+      "fps": 50
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 33,
+    "fields": {
+      "gpu": 6,
+      "game": "Starfield",
+      "resolution": "4K",
+      "fps": 30
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 34,
+    "fields": {
+      "gpu": 6,
+      "game": "The Last of Us Part I",
+      "resolution": "1080p",
+      "fps": 57
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 35,
+    "fields": {
+      "gpu": 6,
+      "game": "The Last of Us Part I",
+      "resolution": "1440p",
+      "fps": 33
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 36,
+    "fields": {
+      "gpu": 6,
+      "game": "The Last of Us Part I",
+      "resolution": "4K",
+      "fps": 10
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 37,
+    "fields": {
+      "gpu": 6,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1080p",
+      "fps": 177
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 38,
+    "fields": {
+      "gpu": 6,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1440p",
+      "fps": 131
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 39,
+    "fields": {
+      "gpu": 6,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "4K",
+      "fps": 74
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 40,
+    "fields": {
+      "gpu": 5,
+      "game": "Alan Wake 2",
+      "resolution": "1080p",
+      "fps": 75
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 41,
+    "fields": {
+      "gpu": 5,
+      "game": "Alan Wake 2",
+      "resolution": "1440p",
+      "fps": 54
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 42,
+    "fields": {
+      "gpu": 5,
+      "game": "Alan Wake 2",
+      "resolution": "4K",
+      "fps": 30
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 43,
+    "fields": {
+      "gpu": 5,
+      "game": "Starfield",
+      "resolution": "1080p",
+      "fps": 73
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 44,
+    "fields": {
+      "gpu": 5,
+      "game": "Starfield",
+      "resolution": "1440p",
+      "fps": 57
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 45,
+    "fields": {
+      "gpu": 5,
+      "game": "Starfield",
+      "resolution": "4K",
+      "fps": 35
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 46,
+    "fields": {
+      "gpu": 5,
+      "game": "The Last of Us Part I",
+      "resolution": "1080p",
+      "fps": 77
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 47,
+    "fields": {
+      "gpu": 5,
+      "game": "The Last of Us Part I",
+      "resolution": "1440p",
+      "fps": 56
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 48,
+    "fields": {
+      "gpu": 5,
+      "game": "The Last of Us Part I",
+      "resolution": "4K",
+      "fps": 32
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 49,
+    "fields": {
+      "gpu": 5,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1080p",
+      "fps": 200
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 50,
+    "fields": {
+      "gpu": 5,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1440p",
+      "fps": 151
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 51,
+    "fields": {
+      "gpu": 5,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "4K",
+      "fps": 86
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 52,
+    "fields": {
+      "gpu": 5,
+      "game": "Baldur's Gate 3",
+      "resolution": "1080p",
+      "fps": 136
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 53,
+    "fields": {
+      "gpu": 5,
+      "game": "Baldur's Gate 3",
+      "resolution": "1440p",
+      "fps": 100
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 54,
+    "fields": {
+      "gpu": 5,
+      "game": "Baldur's Gate 3",
+      "resolution": "4K",
+      "fps": 52
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 55,
+    "fields": {
+      "gpu": 5,
+      "game": "Black Myth: Wukong",
+      "resolution": "1080p",
+      "fps": 42
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 56,
+    "fields": {
+      "gpu": 5,
+      "game": "Black Myth: Wukong",
+      "resolution": "1440p",
+      "fps": 32
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 57,
+    "fields": {
+      "gpu": 5,
+      "game": "Black Myth: Wukong",
+      "resolution": "4K",
+      "fps": 19
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 58,
+    "fields": {
+      "gpu": 5,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 114
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 59,
+    "fields": {
+      "gpu": 5,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 76
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 60,
+    "fields": {
+      "gpu": 5,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 35
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 61,
+    "fields": {
+      "gpu": 5,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 175
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 62,
+    "fields": {
+      "gpu": 5,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 144
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 63,
+    "fields": {
+      "gpu": 5,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 91
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 64,
+    "fields": {
+      "gpu": 5,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1080p",
+      "fps": 72
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 65,
+    "fields": {
+      "gpu": 5,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1440p",
+      "fps": 56
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 66,
+    "fields": {
+      "gpu": 5,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "4K",
+      "fps": 34
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 67,
+    "fields": {
+      "gpu": 5,
+      "game": "Elden Ring",
+      "resolution": "1080p",
+      "fps": 146
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 68,
+    "fields": {
+      "gpu": 5,
+      "game": "Elden Ring",
+      "resolution": "1440p",
+      "fps": 109
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 69,
+    "fields": {
+      "gpu": 5,
+      "game": "Elden Ring",
+      "resolution": "4K",
+      "fps": 61
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 70,
+    "fields": {
+      "gpu": 5,
+      "game": "God of War Ragnarök",
+      "resolution": "1080p",
+      "fps": 96
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 71,
+    "fields": {
+      "gpu": 5,
+      "game": "God of War Ragnarök",
+      "resolution": "1440p",
+      "fps": 75
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 72,
+    "fields": {
+      "gpu": 5,
+      "game": "God of War Ragnarök",
+      "resolution": "4K",
+      "fps": 47
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 73,
+    "fields": {
+      "gpu": 5,
+      "game": "Hogwarts Legacy",
+      "resolution": "1080p",
+      "fps": 84
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 74,
+    "fields": {
+      "gpu": 5,
+      "game": "Hogwarts Legacy",
+      "resolution": "1440p",
+      "fps": 60
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 75,
+    "fields": {
+      "gpu": 5,
+      "game": "Hogwarts Legacy",
+      "resolution": "4K",
+      "fps": 33
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 76,
+    "fields": {
+      "gpu": 5,
+      "game": "Horizon Forbidden West",
+      "resolution": "1080p",
+      "fps": 90
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 77,
+    "fields": {
+      "gpu": 5,
+      "game": "Horizon Forbidden West",
+      "resolution": "1440p",
+      "fps": 69
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 78,
+    "fields": {
+      "gpu": 5,
+      "game": "Horizon Forbidden West",
+      "resolution": "4K",
+      "fps": 41
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 79,
+    "fields": {
+      "gpu": 4,
+      "game": "Alan Wake II",
+      "resolution": "1080p",
+      "fps": 100
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 80,
+    "fields": {
+      "gpu": 4,
+      "game": "Alan Wake II",
+      "resolution": "1440p",
+      "fps": 72
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 81,
+    "fields": {
+      "gpu": 4,
+      "game": "Alan Wake II",
+      "resolution": "4K",
+      "fps": 41
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 82,
+    "fields": {
+      "gpu": 4,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1080p",
+      "fps": 148
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 83,
+    "fields": {
+      "gpu": 4,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1440p",
+      "fps": 116
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 84,
+    "fields": {
+      "gpu": 4,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "4K",
+      "fps": 74
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 85,
+    "fields": {
+      "gpu": 4,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 157
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 86,
+    "fields": {
+      "gpu": 4,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 104
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 87,
+    "fields": {
+      "gpu": 4,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 48
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 88,
+    "fields": {
+      "gpu": 4,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 234
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 89,
+    "fields": {
+      "gpu": 4,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 191
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 90,
+    "fields": {
+      "gpu": 4,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 125
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 91,
+    "fields": {
+      "gpu": 4,
+      "game": "Elden Ring",
+      "resolution": "1080p",
+      "fps": 185
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 92,
+    "fields": {
+      "gpu": 4,
+      "game": "Elden Ring",
+      "resolution": "1440p",
+      "fps": 151
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 93,
+    "fields": {
+      "gpu": 4,
+      "game": "Elden Ring",
+      "resolution": "4K",
+      "fps": 87
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 94,
+    "fields": {
+      "gpu": 4,
+      "game": "Horizon Forbidden West",
+      "resolution": "1080p",
+      "fps": 127
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 95,
+    "fields": {
+      "gpu": 4,
+      "game": "Horizon Forbidden West",
+      "resolution": "1440p",
+      "fps": 98
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 96,
+    "fields": {
+      "gpu": 4,
+      "game": "Horizon Forbidden West",
+      "resolution": "4K",
+      "fps": 59
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 97,
+    "fields": {
+      "gpu": 4,
+      "game": "The Last of Us Part I",
+      "resolution": "1080p",
+      "fps": 106
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 98,
+    "fields": {
+      "gpu": 4,
+      "game": "The Last of Us Part I",
+      "resolution": "1440p",
+      "fps": 78
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 99,
+    "fields": {
+      "gpu": 4,
+      "game": "The Last of Us Part I",
+      "resolution": "4K",
+      "fps": 44
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 100,
+    "fields": {
+      "gpu": 4,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1080p",
+      "fps": 289
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 101,
+    "fields": {
+      "gpu": 4,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1440p",
+      "fps": 223
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 102,
+    "fields": {
+      "gpu": 4,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "4K",
+      "fps": 127
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 103,
+    "fields": {
+      "gpu": 3,
+      "game": "Alan Wake II",
+      "resolution": "1080p",
+      "fps": 126
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 104,
+    "fields": {
+      "gpu": 3,
+      "game": "Alan Wake II",
+      "resolution": "1440p",
+      "fps": 93
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 105,
+    "fields": {
+      "gpu": 3,
+      "game": "Alan Wake II",
+      "resolution": "4K",
+      "fps": 52
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 106,
+    "fields": {
+      "gpu": 3,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1080p",
+      "fps": 165
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 107,
+    "fields": {
+      "gpu": 3,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1440p",
+      "fps": 137
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 108,
+    "fields": {
+      "gpu": 3,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "4K",
+      "fps": 90
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 109,
+    "fields": {
+      "gpu": 3,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 187
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 110,
+    "fields": {
+      "gpu": 3,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 124
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 111,
+    "fields": {
+      "gpu": 3,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 59
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 112,
+    "fields": {
+      "gpu": 3,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 283
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 113,
+    "fields": {
+      "gpu": 3,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 237
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 114,
+    "fields": {
+      "gpu": 3,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 158
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 115,
+    "fields": {
+      "gpu": 3,
+      "game": "Elden Ring",
+      "resolution": "1080p",
+      "fps": 189
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 116,
+    "fields": {
+      "gpu": 3,
+      "game": "Elden Ring",
+      "resolution": "1440p",
+      "fps": 179
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 117,
+    "fields": {
+      "gpu": 3,
+      "game": "Elden Ring",
+      "resolution": "4K",
+      "fps": 110
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 118,
+    "fields": {
+      "gpu": 3,
+      "game": "Horizon Forbidden West",
+      "resolution": "1080p",
+      "fps": 146
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 119,
+    "fields": {
+      "gpu": 3,
+      "game": "Horizon Forbidden West",
+      "resolution": "1440p",
+      "fps": 117
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 120,
+    "fields": {
+      "gpu": 3,
+      "game": "Horizon Forbidden West",
+      "resolution": "4K",
+      "fps": 74
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 121,
+    "fields": {
+      "gpu": 2,
+      "game": "Alan Wake II",
+      "resolution": "1080p",
+      "fps": 143
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 122,
+    "fields": {
+      "gpu": 2,
+      "game": "Alan Wake II",
+      "resolution": "1440p",
+      "fps": 106
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 123,
+    "fields": {
+      "gpu": 2,
+      "game": "Alan Wake II",
+      "resolution": "4K",
+      "fps": 61
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 124,
+    "fields": {
+      "gpu": 2,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1080p",
+      "fps": 177
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 125,
+    "fields": {
+      "gpu": 2,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1440p",
+      "fps": 145
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 126,
+    "fields": {
+      "gpu": 2,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "4K",
+      "fps": 99
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 127,
+    "fields": {
+      "gpu": 2,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 209
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 128,
+    "fields": {
+      "gpu": 2,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 142
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 129,
+    "fields": {
+      "gpu": 2,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 70
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 130,
+    "fields": {
+      "gpu": 2,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 318
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 131,
+    "fields": {
+      "gpu": 2,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 265
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 132,
+    "fields": {
+      "gpu": 2,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 178
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 133,
+    "fields": {
+      "gpu": 2,
+      "game": "Elden Ring",
+      "resolution": "1080p",
+      "fps": 194
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 134,
+    "fields": {
+      "gpu": 2,
+      "game": "Elden Ring",
+      "resolution": "1440p",
+      "fps": 190
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 135,
+    "fields": {
+      "gpu": 2,
+      "game": "Elden Ring",
+      "resolution": "4K",
+      "fps": 122
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 136,
+    "fields": {
+      "gpu": 2,
+      "game": "Horizon Forbidden West",
+      "resolution": "1080p",
+      "fps": 160
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 137,
+    "fields": {
+      "gpu": 2,
+      "game": "Horizon Forbidden West",
+      "resolution": "1440p",
+      "fps": 130
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 138,
+    "fields": {
+      "gpu": 2,
+      "game": "Horizon Forbidden West",
+      "resolution": "4K",
+      "fps": 83
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 139,
+    "fields": {
+      "gpu": 2,
+      "game": "The Last of Us Part I",
+      "resolution": "1080p",
+      "fps": 145
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 140,
+    "fields": {
+      "gpu": 2,
+      "game": "The Last of Us Part I",
+      "resolution": "1440p",
+      "fps": 111
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 141,
+    "fields": {
+      "gpu": 2,
+      "game": "The Last of Us Part I",
+      "resolution": "4K",
+      "fps": 70
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 142,
+    "fields": {
+      "gpu": 2,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1080p",
+      "fps": 394
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 143,
+    "fields": {
+      "gpu": 2,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1440p",
+      "fps": 317
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 144,
+    "fields": {
+      "gpu": 2,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "4K",
+      "fps": 191
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 145,
+    "fields": {
+      "gpu": 1,
+      "game": "Alan Wake II",
+      "resolution": "1080p",
+      "fps": 205
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 146,
+    "fields": {
+      "gpu": 1,
+      "game": "Alan Wake II",
+      "resolution": "1440p",
+      "fps": 155
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 147,
+    "fields": {
+      "gpu": 1,
+      "game": "Alan Wake II",
+      "resolution": "4K",
+      "fps": 93
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 148,
+    "fields": {
+      "gpu": 1,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1080p",
+      "fps": 206
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 149,
+    "fields": {
+      "gpu": 1,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1440p",
+      "fps": 183
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 150,
+    "fields": {
+      "gpu": 1,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "4K",
+      "fps": 133
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 151,
+    "fields": {
+      "gpu": 1,
+      "game": "Baldur's Gate 3",
+      "resolution": "1080p",
+      "fps": 209
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 152,
+    "fields": {
+      "gpu": 1,
+      "game": "Baldur's Gate 3",
+      "resolution": "1440p",
+      "fps": 206
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 153,
+    "fields": {
+      "gpu": 1,
+      "game": "Baldur's Gate 3",
+      "resolution": "4K",
+      "fps": 177
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 154,
+    "fields": {
+      "gpu": 1,
+      "game": "Black Myth: Wukong",
+      "resolution": "1080p",
+      "fps": 112
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 155,
+    "fields": {
+      "gpu": 1,
+      "game": "Black Myth: Wukong",
+      "resolution": "1440p",
+      "fps": 83
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 156,
+    "fields": {
+      "gpu": 1,
+      "game": "Black Myth: Wukong",
+      "resolution": "4K",
+      "fps": 58
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 157,
+    "fields": {
+      "gpu": 1,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 246
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 158,
+    "fields": {
+      "gpu": 1,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 207
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 159,
+    "fields": {
+      "gpu": 1,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 108
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 160,
+    "fields": {
+      "gpu": 1,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 389
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 161,
+    "fields": {
+      "gpu": 1,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 341
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 162,
+    "fields": {
+      "gpu": 1,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 249
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 163,
+    "fields": {
+      "gpu": 1,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1080p",
+      "fps": 185
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 164,
+    "fields": {
+      "gpu": 1,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1440p",
+      "fps": 158
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 165,
+    "fields": {
+      "gpu": 1,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "4K",
+      "fps": 110
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 166,
+    "fields": {
+      "gpu": 1,
+      "game": "God of War Ragnarök",
+      "resolution": "1080p",
+      "fps": 206
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 167,
+    "fields": {
+      "gpu": 1,
+      "game": "God of War Ragnarök",
+      "resolution": "1440p",
+      "fps": 203
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 168,
+    "fields": {
+      "gpu": 1,
+      "game": "God of War Ragnarök",
+      "resolution": "4K",
+      "fps": 151
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 169,
+    "fields": {
+      "gpu": 1,
+      "game": "Hogwarts Legacy",
+      "resolution": "1080p",
+      "fps": 191
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 170,
+    "fields": {
+      "gpu": 1,
+      "game": "Hogwarts Legacy",
+      "resolution": "1440p",
+      "fps": 153
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 171,
+    "fields": {
+      "gpu": 1,
+      "game": "Hogwarts Legacy",
+      "resolution": "4K",
+      "fps": 97
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 172,
+    "fields": {
+      "gpu": 1,
+      "game": "Silent Hill 2",
+      "resolution": "1080p",
+      "fps": 136
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 173,
+    "fields": {
+      "gpu": 1,
+      "game": "Silent Hill 2",
+      "resolution": "1440p",
+      "fps": 109
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 174,
+    "fields": {
+      "gpu": 1,
+      "game": "Silent Hill 2",
+      "resolution": "4K",
+      "fps": 69
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 175,
+    "fields": {
+      "gpu": 1,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "1080p",
+      "fps": 173
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 176,
+    "fields": {
+      "gpu": 1,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "1440p",
+      "fps": 166
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 177,
+    "fields": {
+      "gpu": 1,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "4K",
+      "fps": 125
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 178,
+    "fields": {
+      "gpu": 1,
+      "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "resolution": "1080p",
+      "fps": 144
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 179,
+    "fields": {
+      "gpu": 1,
+      "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "resolution": "1440p",
+      "fps": 118
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 180,
+    "fields": {
+      "gpu": 1,
+      "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "resolution": "4K",
+      "fps": 81
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 181,
+    "fields": {
+      "gpu": 1,
+      "game": "Starfield",
+      "resolution": "1080p",
+      "fps": 175
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 182,
+    "fields": {
+      "gpu": 1,
+      "game": "Starfield",
+      "resolution": "1440p",
+      "fps": 150
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 183,
+    "fields": {
+      "gpu": 1,
+      "game": "Starfield",
+      "resolution": "4K",
+      "fps": 107
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 184,
+    "fields": {
+      "gpu": 9,
+      "game": "Alan Wake II",
+      "resolution": "1080p",
+      "fps": 81
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 185,
+    "fields": {
+      "gpu": 9,
+      "game": "Alan Wake II",
+      "resolution": "1440p",
+      "fps": 57
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 186,
+    "fields": {
+      "gpu": 9,
+      "game": "Alan Wake II",
+      "resolution": "4K",
+      "fps": 32
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 187,
+    "fields": {
+      "gpu": 9,
+      "game": "Baldur's Gate 3",
+      "resolution": "1080p",
+      "fps": 132
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 188,
+    "fields": {
+      "gpu": 9,
+      "game": "Baldur's Gate 3",
+      "resolution": "1440p",
+      "fps": 94
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 189,
+    "fields": {
+      "gpu": 9,
+      "game": "Baldur's Gate 3",
+      "resolution": "4K",
+      "fps": 51
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 190,
+    "fields": {
+      "gpu": 9,
+      "game": "Black Myth: Wukong",
+      "resolution": "1080p",
+      "fps": 37
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 191,
+    "fields": {
+      "gpu": 9,
+      "game": "Black Myth: Wukong",
+      "resolution": "1440p",
+      "fps": 28
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 192,
+    "fields": {
+      "gpu": 9,
+      "game": "Black Myth: Wukong",
+      "resolution": "4K",
+      "fps": 16
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 193,
+    "fields": {
+      "gpu": 9,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 111
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 194,
+    "fields": {
+      "gpu": 9,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 72
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 195,
+    "fields": {
+      "gpu": 9,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 33
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 196,
+    "fields": {
+      "gpu": 9,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 201
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 197,
+    "fields": {
+      "gpu": 9,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 163
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 198,
+    "fields": {
+      "gpu": 9,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 97
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 199,
+    "fields": {
+      "gpu": 9,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1080p",
+      "fps": 65
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 200,
+    "fields": {
+      "gpu": 9,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1440p",
+      "fps": 50
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 201,
+    "fields": {
+      "gpu": 9,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "4K",
+      "fps": 31
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 202,
+    "fields": {
+      "gpu": 9,
+      "game": "Elden Ring",
+      "resolution": "1080p",
+      "fps": 107
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 203,
+    "fields": {
+      "gpu": 9,
+      "game": "Elden Ring",
+      "resolution": "1440p",
+      "fps": 78
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 204,
+    "fields": {
+      "gpu": 9,
+      "game": "Elden Ring",
+      "resolution": "4K",
+      "fps": 43
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 205,
+    "fields": {
+      "gpu": 9,
+      "game": "God of War Ragnarök",
+      "resolution": "1080p",
+      "fps": 91
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 206,
+    "fields": {
+      "gpu": 9,
+      "game": "God of War Ragnarök",
+      "resolution": "1440p",
+      "fps": 73
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 207,
+    "fields": {
+      "gpu": 9,
+      "game": "God of War Ragnarök",
+      "resolution": "4K",
+      "fps": 45
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 208,
+    "fields": {
+      "gpu": 9,
+      "game": "Hogwarts Legacy",
+      "resolution": "1080p",
+      "fps": 79
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 209,
+    "fields": {
+      "gpu": 9,
+      "game": "Hogwarts Legacy",
+      "resolution": "1440p",
+      "fps": 57
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 210,
+    "fields": {
+      "gpu": 9,
+      "game": "Hogwarts Legacy",
+      "resolution": "4K",
+      "fps": 32
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 211,
+    "fields": {
+      "gpu": 9,
+      "game": "Kingdom Come: Deliverance II",
+      "resolution": "1080p",
+      "fps": 97
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 212,
+    "fields": {
+      "gpu": 9,
+      "game": "Kingdom Come: Deliverance II",
+      "resolution": "1440p",
+      "fps": 67
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 213,
+    "fields": {
+      "gpu": 9,
+      "game": "Kingdom Come: Deliverance II",
+      "resolution": "4K",
+      "fps": 35
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 214,
+    "fields": {
+      "gpu": 9,
+      "game": "Starfield",
+      "resolution": "1080p",
+      "fps": 70
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 215,
+    "fields": {
+      "gpu": 9,
+      "game": "Starfield",
+      "resolution": "1440p",
+      "fps": 54
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 216,
+    "fields": {
+      "gpu": 9,
+      "game": "Starfield",
+      "resolution": "4K",
+      "fps": 33
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 217,
+    "fields": {
+      "gpu": 9,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1080p",
+      "fps": 171
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 218,
+    "fields": {
+      "gpu": 9,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "1440p",
+      "fps": 126
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 219,
+    "fields": {
+      "gpu": 9,
+      "game": "The Witcher 3: Wild Hunt",
+      "resolution": "4K",
+      "fps": 71
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 220,
+    "fields": {
+      "gpu": 8,
+      "game": "Alan Wake II",
+      "resolution": "1080p",
+      "fps": 126
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 221,
+    "fields": {
+      "gpu": 8,
+      "game": "Alan Wake II",
+      "resolution": "1440p",
+      "fps": 91
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 222,
+    "fields": {
+      "gpu": 8,
+      "game": "Alan Wake II",
+      "resolution": "4K",
+      "fps": 52
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 223,
+    "fields": {
+      "gpu": 8,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1080p",
+      "fps": 176
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 224,
+    "fields": {
+      "gpu": 8,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1440p",
+      "fps": 144
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 225,
+    "fields": {
+      "gpu": 8,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "4K",
+      "fps": 90
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 226,
+    "fields": {
+      "gpu": 8,
+      "game": "Baldur's Gate 3",
+      "resolution": "1080p",
+      "fps": 195
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 227,
+    "fields": {
+      "gpu": 8,
+      "game": "Baldur's Gate 3",
+      "resolution": "1440p",
+      "fps": 155
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 228,
+    "fields": {
+      "gpu": 8,
+      "game": "Baldur's Gate 3",
+      "resolution": "4K",
+      "fps": 87
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 229,
+    "fields": {
+      "gpu": 8,
+      "game": "Black Myth: Wukong",
+      "resolution": "1080p",
+      "fps": 58
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 230,
+    "fields": {
+      "gpu": 8,
+      "game": "Black Myth: Wukong",
+      "resolution": "1440p",
+      "fps": 44
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 231,
+    "fields": {
+      "gpu": 8,
+      "game": "Black Myth: Wukong",
+      "resolution": "4K",
+      "fps": 26
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 232,
+    "fields": {
+      "gpu": 8,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 172
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 233,
+    "fields": {
+      "gpu": 8,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 116
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 234,
+    "fields": {
+      "gpu": 8,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 57
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 235,
+    "fields": {
+      "gpu": 8,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 263
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 236,
+    "fields": {
+      "gpu": 8,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 224
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 237,
+    "fields": {
+      "gpu": 8,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 145
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 238,
+    "fields": {
+      "gpu": 8,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1080p",
+      "fps": 99
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 239,
+    "fields": {
+      "gpu": 8,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1440p",
+      "fps": 80
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 240,
+    "fields": {
+      "gpu": 8,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "4K",
+      "fps": 52
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 241,
+    "fields": {
+      "gpu": 8,
+      "game": "God of War Ragnarök",
+      "resolution": "1080p",
+      "fps": 142
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 242,
+    "fields": {
+      "gpu": 8,
+      "game": "God of War Ragnarök",
+      "resolution": "1440p",
+      "fps": 115
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 243,
+    "fields": {
+      "gpu": 8,
+      "game": "God of War Ragnarök",
+      "resolution": "4K",
+      "fps": 73
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 244,
+    "fields": {
+      "gpu": 8,
+      "game": "Hogwarts Legacy",
+      "resolution": "1080p",
+      "fps": 109
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 245,
+    "fields": {
+      "gpu": 8,
+      "game": "Hogwarts Legacy",
+      "resolution": "1440p",
+      "fps": 84
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 246,
+    "fields": {
+      "gpu": 8,
+      "game": "Hogwarts Legacy",
+      "resolution": "4K",
+      "fps": 48
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 247,
+    "fields": {
+      "gpu": 8,
+      "game": "Horizon Forbidden West",
+      "resolution": "1080p",
+      "fps": 137
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 248,
+    "fields": {
+      "gpu": 8,
+      "game": "Horizon Forbidden West",
+      "resolution": "1440p",
+      "fps": 109
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 249,
+    "fields": {
+      "gpu": 8,
+      "game": "Horizon Forbidden West",
+      "resolution": "4K",
+      "fps": 69
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 250,
+    "fields": {
+      "gpu": 8,
+      "game": "Silent Hill 2",
+      "resolution": "1080p",
+      "fps": 71
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 251,
+    "fields": {
+      "gpu": 8,
+      "game": "Silent Hill 2",
+      "resolution": "1440p",
+      "fps": 48
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 252,
+    "fields": {
+      "gpu": 8,
+      "game": "Silent Hill 2",
+      "resolution": "4K",
+      "fps": 25
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 253,
+    "fields": {
+      "gpu": 8,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "1080p",
+      "fps": 119
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 254,
+    "fields": {
+      "gpu": 8,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "1440p",
+      "fps": 90
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 255,
+    "fields": {
+      "gpu": 8,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "4K",
+      "fps": 50
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 256,
+    "fields": {
+      "gpu": 7,
+      "game": "Alan Wake II",
+      "resolution": "1080p",
+      "fps": 143
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 257,
+    "fields": {
+      "gpu": 7,
+      "game": "Alan Wake II",
+      "resolution": "1440p",
+      "fps": 106
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 258,
+    "fields": {
+      "gpu": 7,
+      "game": "Alan Wake II",
+      "resolution": "4K",
+      "fps": 60
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 259,
+    "fields": {
+      "gpu": 7,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1080p",
+      "fps": 186
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 260,
+    "fields": {
+      "gpu": 7,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "1440p",
+      "fps": 157
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 261,
+    "fields": {
+      "gpu": 7,
+      "game": "Assassin's Creed Mirage",
+      "resolution": "4K",
+      "fps": 103
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 262,
+    "fields": {
+      "gpu": 7,
+      "game": "Baldur's Gate 3",
+      "resolution": "1080p",
+      "fps": 199
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 263,
+    "fields": {
+      "gpu": 7,
+      "game": "Baldur's Gate 3",
+      "resolution": "1440p",
+      "fps": 175
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 264,
+    "fields": {
+      "gpu": 7,
+      "game": "Baldur's Gate 3",
+      "resolution": "4K",
+      "fps": 102
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 265,
+    "fields": {
+      "gpu": 7,
+      "game": "Black Myth: Wukong",
+      "resolution": "1080p",
+      "fps": 68
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 266,
+    "fields": {
+      "gpu": 7,
+      "game": "Black Myth: Wukong",
+      "resolution": "1440p",
+      "fps": 52
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 267,
+    "fields": {
+      "gpu": 7,
+      "game": "Black Myth: Wukong",
+      "resolution": "4K",
+      "fps": 31
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 268,
+    "fields": {
+      "gpu": 7,
+      "game": "Cyberpunk 2077",
+      "resolution": "1080p",
+      "fps": 192
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 269,
+    "fields": {
+      "gpu": 7,
+      "game": "Cyberpunk 2077",
+      "resolution": "1440p",
+      "fps": 134
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 270,
+    "fields": {
+      "gpu": 7,
+      "game": "Cyberpunk 2077",
+      "resolution": "4K",
+      "fps": 66
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 271,
+    "fields": {
+      "gpu": 7,
+      "game": "Doom Eternal",
+      "resolution": "1080p",
+      "fps": 282
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 272,
+    "fields": {
+      "gpu": 7,
+      "game": "Doom Eternal",
+      "resolution": "1440p",
+      "fps": 249
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 273,
+    "fields": {
+      "gpu": 7,
+      "game": "Doom Eternal",
+      "resolution": "4K",
+      "fps": 168
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 274,
+    "fields": {
+      "gpu": 7,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1080p",
+      "fps": 112
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 275,
+    "fields": {
+      "gpu": 7,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "1440p",
+      "fps": 91
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 276,
+    "fields": {
+      "gpu": 7,
+      "game": "Dragon Age: The Veilguard",
+      "resolution": "4K",
+      "fps": 60
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 277,
+    "fields": {
+      "gpu": 7,
+      "game": "God of War Ragnarök",
+      "resolution": "1080p",
+      "fps": 161
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 278,
+    "fields": {
+      "gpu": 7,
+      "game": "God of War Ragnarök",
+      "resolution": "1440p",
+      "fps": 132
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 279,
+    "fields": {
+      "gpu": 7,
+      "game": "God of War Ragnarök",
+      "resolution": "4K",
+      "fps": 85
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 280,
+    "fields": {
+      "gpu": 7,
+      "game": "Hogwarts Legacy",
+      "resolution": "1080p",
+      "fps": 122
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 281,
+    "fields": {
+      "gpu": 7,
+      "game": "Hogwarts Legacy",
+      "resolution": "1440p",
+      "fps": 94
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 282,
+    "fields": {
+      "gpu": 7,
+      "game": "Hogwarts Legacy",
+      "resolution": "4K",
+      "fps": 54
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 283,
+    "fields": {
+      "gpu": 7,
+      "game": "Horizon Forbidden West",
+      "resolution": "1080p",
+      "fps": 151
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 284,
+    "fields": {
+      "gpu": 7,
+      "game": "Horizon Forbidden West",
+      "resolution": "1440p",
+      "fps": 122
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 285,
+    "fields": {
+      "gpu": 7,
+      "game": "Horizon Forbidden West",
+      "resolution": "4K",
+      "fps": 78
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 286,
+    "fields": {
+      "gpu": 7,
+      "game": "Silent Hill 2",
+      "resolution": "1080p",
+      "fps": 84
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 287,
+    "fields": {
+      "gpu": 7,
+      "game": "Silent Hill 2",
+      "resolution": "1440p",
+      "fps": 58
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 288,
+    "fields": {
+      "gpu": 7,
+      "game": "Silent Hill 2",
+      "resolution": "4K",
+      "fps": 30
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 289,
+    "fields": {
+      "gpu": 7,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "1080p",
+      "fps": 137
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 290,
+    "fields": {
+      "gpu": 7,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "1440p",
+      "fps": 105
+    }
+  },
+  {
+    "model": "components.gpubenchmark",
+    "pk": 291,
+    "fields": {
+      "gpu": 7,
+      "game": "Warhammer 40,000: Space Marine 2",
+      "resolution": "4K",
+      "fps": 57
+    }
+  }
+]

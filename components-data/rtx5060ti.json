@@ -1,0 +1,85 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "source": "exo.ir (based on TechPowerUp data)",
+  "preset": "Ultra Setting",
+  "benchmarks": [
+    {
+      "game": "Alan Wake 2",
+      "fhd_fps": 75,
+      "2k_fps": 54,
+      "4k_fps": 30
+    },
+    {
+      "game": "Starfield",
+      "fhd_fps": 73,
+      "2k_fps": 57,
+      "4k_fps": 35
+    },
+    {
+      "game": "The Last of Us Part I",
+      "fhd_fps": 77,
+      "2k_fps": 56,
+      "4k_fps": 32
+    },
+    {
+      "game": "The Witcher 3: Wild Hunt",
+      "fhd_fps": 200,
+      "2k_fps": 151,
+      "4k_fps": 86
+    },
+    {
+      "game": "Baldur's Gate 3",
+      "fhd_fps": 136,
+      "2k_fps": 100,
+      "4k_fps": 52
+    },
+    {
+      "game": "Black Myth: Wukong",
+      "fhd_fps": 42,
+      "2k_fps": 32,
+      "4k_fps": 19
+    },
+    {
+      "game": "Cyberpunk 2077",
+      "fhd_fps": 114,
+      "2k_fps": 76,
+      "4k_fps": 35
+    },
+    {
+      "game": "Doom Eternal",
+      "fhd_fps": 175,
+      "2k_fps": 144,
+      "4k_fps": 91
+    },
+    {
+      "game": "Dragon Age: The Veilguard",
+      "fhd_fps": 72,
+      "2k_fps": 56,
+      "4k_fps": 34
+    },
+    {
+      "game": "Elden Ring",
+      "fhd_fps": 146,
+      "2k_fps": 109,
+      "4k_fps": 61
+    },
+    {
+      "game": "God of War Ragnarök",
+      "fhd_fps": 96,
+      "2k_fps": 75,
+      "4k_fps": 47
+    },
+    {
+      "game": "Hogwarts Legacy",
+      "fhd_fps": 84,
+      "2k_fps": 60,
+      "4k_fps": 33
+    },
+    {
+      "game": "Horizon Forbidden West",
+      "fhd_fps": 90,
+      "2k_fps": 69,
+      "4k_fps": 41
+    }
+  ]
+}

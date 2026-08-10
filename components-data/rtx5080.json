@@ -1,0 +1,55 @@
+{
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "source": "exo.ir (based on TechPowerUp data)",
+    "preset": "Ultra Setting",
+    "benchmarks": [
+        {
+            "game": "Alan Wake II",
+            "fhd_fps": 143,
+            "2k_fps": 106,
+            "4k_fps": 61
+        },
+        {
+            "game": "Assassin's Creed Mirage",
+            "fhd_fps": 177,
+            "2k_fps": 145,
+            "4k_fps": 99
+        },
+        {
+            "game": "Cyberpunk 2077",
+            "fhd_fps": 209,
+            "2k_fps": 142,
+            "4k_fps": 70
+        },
+        {
+            "game": "Doom Eternal",
+            "fhd_fps": 318,
+            "2k_fps": 265,
+            "4k_fps": 178
+        },
+        {
+            "game": "Elden Ring",
+            "fhd_fps": 194,
+            "2k_fps": 190,
+            "4k_fps": 122
+        },
+        {
+            "game": "Horizon Forbidden West",
+            "fhd_fps": 160,
+            "2k_fps": 130,
+            "4k_fps": 83
+        },
+        {
+            "game": "The Last of Us Part I",
+            "fhd_fps": 145,
+            "2k_fps": 111,
+            "4k_fps": 70
+        },
+        {
+            "game": "The Witcher 3: Wild Hunt",
+            "fhd_fps": 394,
+            "2k_fps": 317,
+            "4k_fps": 191
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "source": "exo.ir (based on TechPowerUp data)",
+    "preset": "Ultra Setting",
+    "benchmarks": [
+        {
+            "game": "Alan Wake II",
+            "fhd_fps": 66,
+            "2k_fps": 47,
+            "4k_fps": 25
+        },
+        {
+            "game": "Baldur's Gate 3",
+            "fhd_fps": 121,
+            "2k_fps": 87,
+            "4k_fps": 46
+        },
+        {
+            "game": "Black Myth: Wukong",
+            "fhd_fps": 35,
+            "2k_fps": 27,
+            "4k_fps": 9
+        },
+        {
+            "game": "Cyberpunk 2077",
+            "fhd_fps": 102,
+            "2k_fps": 62,
+            "4k_fps": 28
+        },
+        {
+            "game": "Doom Eternal",
+            "fhd_fps": 157,
+            "2k_fps": 107,
+            "4k_fps": 67
+        },
+        {
+            "game": "Dragon Age: The Veilguard",
+            "fhd_fps": 65,
+            "2k_fps": 49,
+            "4k_fps": 24
+        },
+        {
+            "game": "Elden Ring",
+            "fhd_fps": 140,
+            "2k_fps": 98,
+            "4k_fps": 56
+        },
+        {
+            "game": "God of War Ragnarök",
+            "fhd_fps": 85,
+            "2k_fps": 66,
+            "4k_fps": 38
+        },
+        {
+            "game": "Hogwarts Legacy",
+            "fhd_fps": 73,
+            "2k_fps": 51,
+            "4k_fps": 29
+        },
+        {
+            "game": "Horizon Forbidden West",
+            "fhd_fps": 83,
+            "2k_fps": 62,
+            "4k_fps": 37
+        },
+        {
+            "game": "Starfield",
+            "fhd_fps": 65,
+            "2k_fps": 50,
+            "4k_fps": 30
+        },
+        {
+            "game": "The Last of Us Part I",
+            "fhd_fps": 57,
+            "2k_fps": 33,
+            "4k_fps": 10
+        },
+        {
+            "game": "The Witcher 3: Wild Hunt",
+            "fhd_fps": 177,
+            "2k_fps": 131,
+            "4k_fps": 74
+        }
+    ]
+}

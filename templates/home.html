@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}RigCraft{% endblock %}
+{% block content %}
+<div class="py-5">
+    <h1 class="display-5 fw-semibold">RigCraft</h1>
+    <p class="text-body-secondary fs-5">Plan a PC build and catch incompatible parts before you buy.</p>
+    <a href="{% url 'builder' %}" class="btn btn-primary btn-lg mt-2">Start a build</a>
+</div>
+{% endblock %}

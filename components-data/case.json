@@ -1,0 +1,98 @@
+[
+  {
+    "name": "NZXT H7 Flow",
+    "brand": "NZXT",
+    "supported_form_factors": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 400,
+    "max_radiator_size_mm": 360
+  },
+  {
+    "name": "NZXT H5 Flow",
+    "brand": "NZXT",
+    "supported_form_factors": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 388,
+    "max_radiator_size_mm": 360
+  },
+  {
+    "name": "NZXT H210",
+    "brand": "NZXT",
+    "supported_form_factors": [
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 325,
+    "max_radiator_size_mm": 240
+  },
+  {
+    "name": "Corsair 4000D Airflow",
+    "brand": "Corsair",
+    "supported_form_factors": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 360,
+    "max_radiator_size_mm": 360
+  },
+  {
+    "name": "Corsair 5000D Airflow",
+    "brand": "Corsair",
+    "supported_form_factors": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 400,
+    "max_radiator_size_mm": 360
+  },
+  {
+    "name": "Lian Li O11 Dynamic EVO",
+    "brand": "Lian Li",
+    "supported_form_factors": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 422,
+    "max_radiator_size_mm": 360
+  },
+  {
+    "name": "Lian Li Dan A3",
+    "brand": "Lian Li",
+    "supported_form_factors": [
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 362,
+    "max_radiator_size_mm": 360
+  },
+  {
+    "name": "Fractal Design North",
+    "brand": "Fractal Design",
+    "supported_form_factors": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 355,
+    "max_radiator_size_mm": 360
+  },
+  {
+    "name": "Fractal Design Meshify 2",
+    "brand": "Fractal Design",
+    "supported_form_factors": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "max_gpu_length_mm": 491,
+    "max_radiator_size_mm": 360
+  }
+]

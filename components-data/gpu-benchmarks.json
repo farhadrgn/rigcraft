@@ -1,0 +1,38 @@
+[
+    {
+        "name": "RTX 5090",
+        "benchmark": 14235
+    },
+    {
+        "name": "RTX 5080",
+        "benchmark": 8532
+    },
+    {
+        "name": "RX 9070 XT",
+        "benchmark": 7153
+    },
+    {
+        "name": "RTX 5070 Ti",
+        "benchmark": 6474
+    },
+    {
+        "name": "RX 9070",
+        "benchmark": 6019
+    },
+    {
+        "name": "RTX 5070",
+        "benchmark": 4991
+    },
+    {
+        "name": "RX 9060 XT",
+        "benchmark": 3719
+    },
+    {
+        "name": "RTX 5060 Ti",
+        "benchmark": 3577
+    },
+    {
+        "name": "RTX 5060",
+        "benchmark": 3149
+    }
+]

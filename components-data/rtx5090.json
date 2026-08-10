@@ -1,0 +1,85 @@
+{
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "source": "exo.ir (based on TechPowerUp data)",
+    "preset": "Ultra Setting",
+    "benchmarks": [
+        {
+            "game": "Alan Wake II",
+            "fhd_fps": 205,
+            "2k_fps": 155,
+            "4k_fps": 93
+        },
+        {
+            "game": "Assassin's Creed Mirage",
+            "fhd_fps": 206,
+            "2k_fps": 183,
+            "4k_fps": 133
+        },
+        {
+            "game": "Baldur's Gate 3",
+            "fhd_fps": 209,
+            "2k_fps": 206,
+            "4k_fps": 177
+        },
+        {
+            "game": "Black Myth: Wukong",
+            "fhd_fps": 112,
+            "2k_fps": 83,
+            "4k_fps": 58
+        },
+        {
+            "game": "Cyberpunk 2077",
+            "fhd_fps": 246,
+            "2k_fps": 207,
+            "4k_fps": 108
+        },
+        {
+            "game": "Doom Eternal",
+            "fhd_fps": 389,
+            "2k_fps": 341,
+            "4k_fps": 249
+        },
+        {
+            "game": "Dragon Age: The Veilguard",
+            "fhd_fps": 185,
+            "2k_fps": 158,
+            "4k_fps": 110
+        },
+        {
+            "game": "God of War Ragnarök",
+            "fhd_fps": 206,
+            "2k_fps": 203,
+            "4k_fps": 151
+        },
+        {
+            "game": "Hogwarts Legacy",
+            "fhd_fps": 191,
+            "2k_fps": 153,
+            "4k_fps": 97
+        },
+        {
+            "game": "Silent Hill 2",
+            "fhd_fps": 136,
+            "2k_fps": 109,
+            "4k_fps": 69
+        },
+        {
+            "game": "Warhammer 40,000: Space Marine 2",
+            "fhd_fps": 173,
+            "2k_fps": 166,
+            "4k_fps": 125
+        },
+        {
+            "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+            "fhd_fps": 144,
+            "2k_fps": 118,
+            "4k_fps": 81
+        },
+        {
+            "game": "Starfield",
+            "fhd_fps": 175,
+            "2k_fps": 150,
+            "4k_fps": 107
+        }
+    ]
+}

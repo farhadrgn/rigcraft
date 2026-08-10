@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Page Not Found - RigCraft{% endblock %}
+{% block content %}
+<div class="py-5 text-center">
+    <h1 class="display-5 fw-semibold">404</h1>
+    <p class="text-body-secondary fs-5">This page doesn't exist.</p>
+    <a href="{% url 'home' %}" class="btn btn-primary mt-2">Back to home</a>
+</div>
+{% endblock %}

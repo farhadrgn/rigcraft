@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}{{ build.name }} - RigCraft{% endblock %}
+{% block content %}
+<h1>{{ build.name }}</h1>
+<p class="text-body-secondary">Target resolution: <span class="rc-mono">{{ build.target_resolution }}</span></p>
+{% if bottleneck_status %}
+<p class="text-body-secondary">Bottleneck: {{ bottleneck_status }}</p>
+{% endif %}
+
+<div class="row g-3 mt-2">
+    {% for label, part in components %}
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <div class="text-body-secondary text-uppercase small">{{ label }}</div>
+                <div class="fw-semibold">{{ part.name|default:"Not selected" }}</div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if fps_rows %}
+<div class="mt-4">
+    <h3 class="h6">Estimated Game Performance ({{ build.target_resolution }})</h3>
+    <table class="table table-sm">
+        <tbody>
+        {% for row in fps_rows %}
+            <tr>
+                <td>{{ row.game }}</td>
+                <td class="rc-mono text-end">{{ row.fps }} FPS</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+
+<div class="d-flex gap-2 mt-4">
+    <a href="{% url 'build_edit' build.pk %}" class="btn btn-outline-light">Edit</a>
+    <form method="post" action="{% url 'build_delete' build.pk %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-outline-danger">Delete</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "ROG STRIX Z790-A GAMING WIFI",
+    "brand": "ASUS",
+    "socket": "LGA1700",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 790
+  },
+  {
+    "name": "TUF GAMING B760M-PLUS WIFI",
+    "brand": "ASUS",
+    "socket": "LGA1700",
+    "ddr_support": "DDR5",
+    "form_factor": "Micro-ATX",
+    "chipset_tier_number": 760
+  },
+  {
+    "name": "MSI MAG Z790 TOMAHAWK WIFI",
+    "brand": "MSI",
+    "socket": "LGA1700",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 790
+  },
+  {
+    "name": "MSI MAG B760M MORTAR WIFI",
+    "brand": "MSI",
+    "socket": "LGA1700",
+    "ddr_support": "DDR5",
+    "form_factor": "Micro-ATX",
+    "chipset_tier_number": 760
+  },
+  {
+    "name": "Gigabyte Z790 AORUS ELITE AX",
+    "brand": "Gigabyte",
+    "socket": "LGA1700",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 790
+  },
+  {
+    "name": "ASUS PRIME B760M-A AX DDR4",
+    "brand": "ASUS",
+    "socket": "LGA1700",
+    "ddr_support": "DDR4",
+    "form_factor": "Micro-ATX",
+    "chipset_tier_number": 760,
+    "notes": "DDR4 variant"
+  },
+  {
+    "name": "MSI PRO B760M-A WIFI DDR4",
+    "brand": "MSI",
+    "socket": "LGA1700",
+    "ddr_support": "DDR4",
+    "form_factor": "Micro-ATX",
+    "chipset_tier_number": 760,
+    "notes": "DDR4 variant"
+  },
+  {
+    "name": "ROG STRIX Z890-A GAMING WIFI",
+    "brand": "ASUS",
+    "socket": "LGA1851",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 890
+  },
+  {
+    "name": "MSI MPG Z890 EDGE TI WIFI",
+    "brand": "MSI",
+    "socket": "LGA1851",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 890
+  },
+  {
+    "name": "TUF GAMING B860M-PLUS WIFI",
+    "brand": "ASUS",
+    "socket": "LGA1851",
+    "ddr_support": "DDR5",
+    "form_factor": "Micro-ATX",
+    "chipset_tier_number": 860
+  },
+  {
+    "name": "ROG STRIX X670E-F GAMING WIFI",
+    "brand": "ASUS",
+    "socket": "AM5",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 670
+  },
+  {
+    "name": "TUF GAMING B650-PLUS WIFI",
+    "brand": "ASUS",
+    "socket": "AM5",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 650
+  },
+  {
+    "name": "MSI MAG B650 TOMAHAWK WIFI",
+    "brand": "MSI",
+    "socket": "AM5",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 650
+  },
+  {
+    "name": "Gigabyte B650 AORUS ELITE AX",
+    "brand": "Gigabyte",
+    "socket": "AM5",
+    "ddr_support": "DDR5",
+    "form_factor": "ATX",
+    "chipset_tier_number": 650
+  }
+]

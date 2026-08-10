@@ -1,0 +1,43 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "source": "exo.ir (based on TechPowerUp data)",
+  "preset": "Ultra Setting",
+  "benchmarks": [
+    {
+      "game": "Alan Wake II",
+      "fhd_fps": 126,
+      "2k_fps": 93,
+      "4k_fps": 52
+    },
+    {
+      "game": "Assassin's Creed Mirage",
+      "fhd_fps": 165,
+      "2k_fps": 137,
+      "4k_fps": 90
+    },
+    {
+      "game": "Cyberpunk 2077",
+      "fhd_fps": 187,
+      "2k_fps": 124,
+      "4k_fps": 59
+    },
+    {
+      "game": "Doom Eternal",
+      "fhd_fps": 283,
+      "2k_fps": 237,
+      "4k_fps": 158
+    },
+    {
+      "game": "Elden Ring",
+      "fhd_fps": 189,
+      "2k_fps": 179,
+      "4k_fps": 110
+    },
+    {
+      "game": "Horizon Forbidden West",
+      "fhd_fps": 146,
+      "2k_fps": 117,
+      "4k_fps": 74
+    }
+  ]
+}

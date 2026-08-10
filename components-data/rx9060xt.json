@@ -1,0 +1,79 @@
+{
+    "gpu": "AMD Radeon RX 9060 XT",
+    "source": "exo.ir (based on TechPowerUp data)",
+    "preset": "Ultra Setting",
+    "benchmarks": [
+        {
+            "game": "Alan Wake II",
+            "fhd_fps": 81,
+            "2k_fps": 57,
+            "4k_fps": 32
+        },
+        {
+            "game": "Baldur's Gate 3",
+            "fhd_fps": 132,
+            "2k_fps": 94,
+            "4k_fps": 51
+        },
+        {
+            "game": "Black Myth: Wukong",
+            "fhd_fps": 37,
+            "2k_fps": 28,
+            "4k_fps": 16
+        },
+        {
+            "game": "Cyberpunk 2077",
+            "fhd_fps": 111,
+            "2k_fps": 72,
+            "4k_fps": 33
+        },
+        {
+            "game": "Doom Eternal",
+            "fhd_fps": 201,
+            "2k_fps": 163,
+            "4k_fps": 97
+        },
+        {
+            "game": "Dragon Age: The Veilguard",
+            "fhd_fps": 65,
+            "2k_fps": 50,
+            "4k_fps": 31
+        },
+        {
+            "game": "Elden Ring",
+            "fhd_fps": 107,
+            "2k_fps": 78,
+            "4k_fps": 43
+        },
+        {
+            "game": "God of War Ragnarök",
+            "fhd_fps": 91,
+            "2k_fps": 73,
+            "4k_fps": 45
+        },
+        {
+            "game": "Hogwarts Legacy",
+            "fhd_fps": 79,
+            "2k_fps": 57,
+            "4k_fps": 32
+        },
+        {
+            "game": "Kingdom Come: Deliverance II",
+            "fhd_fps": 97,
+            "2k_fps": 67,
+            "4k_fps": 35
+        },
+        {
+            "game": "Starfield",
+            "fhd_fps": 70,
+            "2k_fps": 54,
+            "4k_fps": 33
+        },
+        {
+            "game": "The Witcher 3: Wild Hunt",
+            "fhd_fps": 171,
+            "2k_fps": 126,
+            "4k_fps": 71
+        }
+    ]
+}

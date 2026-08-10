@@ -1,0 +1,20 @@
+.rc-option-card {
+  cursor: pointer;
+  border: 1px solid var(--rc-border);
+  text-align: left;
+  background-color: var(--rc-surface);
+}
+
+.rc-option-card:not(.rc-option-disabled):hover {
+  background-color: var(--rc-surface-hover);
+}
+
+.rc-option-selected {
+  border-color: var(--rc-accent);
+  background-color: var(--rc-selected-tint);
+}
+
+.rc-option-disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
