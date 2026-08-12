@@ -14,12 +14,14 @@ def home(request):
 
 
 def builder(request):
+    # First check if this build does exist, if does it means user want to edit it
     initial_build = None
     build_id = request.GET.get("build")
     if build_id and request.user.is_authenticated:
         initial_build = Build.objects.filter(pk=build_id, user=request.user).first()
 
     initial_selection = {}
+    # If the build already exist prefill the build components so user can see what they choose before
     if initial_build:
         initial_selection = {
             "resolution": initial_build.target_resolution,
@@ -32,7 +34,7 @@ def builder(request):
             "psu": initial_build.psu_id,
             "case": initial_build.case_id,
         }
-
+    # Getting all components data from database as json format
     context = {
         "gpus_json": list(GPU.objects.values()),
         "cpus_json": list(CPU.objects.values()),
@@ -68,6 +70,8 @@ def builder_save(request):
 
     for category in CATEGORY_FIELDS:
         pk = request.POST.get(category)
+        # Using setattr() witch stands for "set attribute" we can change the pk of components using one line
+        # instead i writing so many line each for a component
         setattr(build, f"{category}_id", pk or None)
 
     # Every field (base fields + all 8 component FKs) is set on one
@@ -121,6 +125,8 @@ def build_detail(request, build_id):
     )
 
 
+# Just check if the user is loged in and the build belongs to user or not
+# and then redirect user to builder page
 def build_edit(request, build_id):
     if not request.user.is_authenticated:
         return redirect("login")
