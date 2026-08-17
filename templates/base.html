@@ -18,6 +18,7 @@
             <a class="nav-link" href="{% url 'builder' %}">Builder</a>
             {% if user.is_authenticated %}
                 <a class="nav-link" href="{% url 'build_list' %}">My Builds</a>
+                <span class="nav-link">{{ user.username }}</span>
                 <form method="post" action="{% url 'logout' %}" class="m-0">
                     {% csrf_token %}
                     <button type="submit" class="nav-link bg-transparent border-0">Log Out</button>
