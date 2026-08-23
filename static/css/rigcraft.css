@@ -30,8 +30,7 @@ body {
   border-color: var(--rc-border);
 }
 
-/* Hover lightens the surface -- darkening would reduce contrast on an
-   already-dark page. */
+/* Hover lightens the surface. */
 .btn-outline-light:hover {
   background-color: var(--rc-surface-hover);
 }
@@ -46,8 +45,6 @@ body {
   border-color: var(--rc-accent);
 }
 
-/* Django's default form rendering (form.as_p) needs manual dark-theme
-   styling since it emits plain <input> tags with no Bootstrap classes. */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -79,6 +76,8 @@ ul.errorlist {
   padding-left: 0;
 }
 
+/* If user did not turn on reduce motion (users can turn on reduce motion if their eyes are sensetive or as of their desire) on their device
+  these motions will be execute, with this we respect user prefferences */
 @media (prefers-reduced-motion: no-preference) {
   .card,
   .btn,
