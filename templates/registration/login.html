@@ -1,10 +1,25 @@
 {% extends "base.html" %}
 {% block title %}Log In - RigCraft{% endblock %}
+
 {% block content %}
-<h1>Log In</h1>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit" class="btn btn-primary mt-3">Log In</button>
-</form>
+<div class="row justify-content-center py-5">
+    <div class="col-md-5 col-lg-4">
+        <div class="card p-4 shadow-sm">
+            <h2 class="mb-4 text-center fw-semibold">Log In</h2>
+
+            <form method="post" novalidate>
+                {% csrf_token %}
+                <div class="auth-card">
+                    {{ form.as_p }}
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mt-3 py-2 fw-medium">Log In</button>
+            </form>
+
+            <div class="text-center mt-4 pt-3 border-top border-secondary-subtle">
+                <span class="text-body-secondary">Don't have an account?</span>
+                <a href="{% url 'register' %}" class="text-decoration-none ms-1">Register</a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

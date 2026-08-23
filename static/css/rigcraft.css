@@ -89,3 +89,27 @@ ul.errorlist {
       opacity 200ms ease;
   }
 }
+
+/* Auth pages: card layout spacing */
+.auth-card p {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card label {
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+.auth-card .helptext {
+  margin-top: 0.35rem;
+  display: block;
+  line-height: 1.4;
+}
+
+.auth-card .helptext ul {
+  padding-left: 1.2rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}
