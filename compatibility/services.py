@@ -183,61 +183,16 @@ def check_compatibility(selection):
     return {"compatible": len(violations) == 0, "violations": violations}
 
 
-from django.db.models import Max
-
-# 10 percent bottleneck
-MINOR_THRESHOLD = 10
-# 25 percent bottleneck
-MAJOR_THRESHOLD = 25
-
-# In 1080p resoluttion there is more pressure on cpu and less pressure on gpu
-# In 1440p resoluttion there is a ballance pressure on cpu and gpu
-# In 4k resoluttion there is more pressure on gpu and less pressure on cpu
-RESOLUTION_SENSITIVITY = {
-    "1080p": {"gpu_weak_multiplier": 0.8, "cpu_weak_multiplier": 1.2},
-    "1440p": {"gpu_weak_multiplier": 1.0, "cpu_weak_multiplier": 1.0},
-    "4K": {"gpu_weak_multiplier": 1.3, "cpu_weak_multiplier": 0.7},
-}
+from .models import BottleneckException
 
 
 def compute_bottleneck(cpu, gpu, resolution):
-    """Purely informational -- never blocks a build selection.
+    """Look up the empirically observed bottleneck level.
 
-    This is a heuristic, not a physical performance simulation: no
-    official industry-standard bottleneck formula exists. The resolution
-    sensitivity multipliers below are reasoned estimates (games lean more
-    CPU-bound at 1080p and more GPU-bound at 4K), not measured constants.
-    The formula also assumes a roughly linear relationship between
-    benchmark score and real-world FPS impact -- it does not model
-    diminishing returns at the high end, and it ignores VRAM capacity,
-    RAM speed, and the specific game/engine being played.
+    Purely informational -- never blocks a build selection. See
+    BottleneckException for the testing methodology this is built from.
     """
-    max_cpu_score = CPU.objects.aggregate(Max("benchmark_score_single_thread"))[
-        "benchmark_score_single_thread__max"
-    ]
-    max_gpu_score = GPU.objects.aggregate(Max("benchmark_score_3d"))["benchmark_score_3d__max"]
-
-    cpu_percent = (cpu.benchmark_score_single_thread / max_cpu_score) * 100
-    gpu_percent = (gpu.benchmark_score_3d / max_gpu_score) * 100
-
-    # Computed before any resolution weighting: a perfectly matched pair
-    # (both at 100% of their category) always starts from a diff of 0.
-    raw_diff = cpu_percent - gpu_percent
-
-    sensitivity = RESOLUTION_SENSITIVITY[resolution]
-    if raw_diff > 0:
-        # CPU relatively stronger than GPU -> GPU is the weaker link.
-        adjusted_diff = raw_diff * sensitivity["gpu_weak_multiplier"]
-    elif raw_diff < 0:
-        # GPU relatively stronger than CPU -> CPU is the weaker link.
-        adjusted_diff = raw_diff * sensitivity["cpu_weak_multiplier"]
-    else:
-        adjusted_diff = 0
-
-    magnitude = abs(adjusted_diff)
-
-    if magnitude < MINOR_THRESHOLD:
-        return "Balanced"
-    if adjusted_diff > 0:
-        return "Major GPU Bottleneck" if magnitude >= MAJOR_THRESHOLD else "Minor GPU Bottleneck"
-    return "Major CPU Bottleneck" if magnitude >= MAJOR_THRESHOLD else "Minor CPU Bottleneck"
+    exception = BottleneckException.objects.filter(
+        cpu=cpu, gpu=gpu, resolution=resolution
+    ).first()
+    return exception.level if exception else "Balanced"
