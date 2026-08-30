@@ -1,0 +1,372 @@
+[
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 1,
+    "fields": {
+      "cpu": 4,
+      "gpu": 8,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 2,
+    "fields": {
+      "cpu": 4,
+      "gpu": 7,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 3,
+    "fields": {
+      "cpu": 5,
+      "gpu": 7,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 4,
+    "fields": {
+      "cpu": 6,
+      "gpu": 7,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 5,
+    "fields": {
+      "cpu": 4,
+      "gpu": 3,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 6,
+    "fields": {
+      "cpu": 5,
+      "gpu": 3,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 7,
+    "fields": {
+      "cpu": 6,
+      "gpu": 3,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 8,
+    "fields": {
+      "cpu": 4,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 9,
+    "fields": {
+      "cpu": 5,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 10,
+    "fields": {
+      "cpu": 6,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 11,
+    "fields": {
+      "cpu": 1,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 12,
+    "fields": {
+      "cpu": 2,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 13,
+    "fields": {
+      "cpu": 3,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 14,
+    "fields": {
+      "cpu": 9,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 15,
+    "fields": {
+      "cpu": 11,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 16,
+    "fields": {
+      "cpu": 7,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 17,
+    "fields": {
+      "cpu": 8,
+      "gpu": 2,
+      "resolution": "1080p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 18,
+    "fields": {
+      "cpu": 9,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 19,
+    "fields": {
+      "cpu": 10,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 20,
+    "fields": {
+      "cpu": 11,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 21,
+    "fields": {
+      "cpu": 11,
+      "gpu": 1,
+      "resolution": "1440p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 22,
+    "fields": {
+      "cpu": 12,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 23,
+    "fields": {
+      "cpu": 7,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 24,
+    "fields": {
+      "cpu": 7,
+      "gpu": 1,
+      "resolution": "1440p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 25,
+    "fields": {
+      "cpu": 8,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 26,
+    "fields": {
+      "cpu": 1,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 27,
+    "fields": {
+      "cpu": 1,
+      "gpu": 1,
+      "resolution": "1440p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 28,
+    "fields": {
+      "cpu": 2,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 29,
+    "fields": {
+      "cpu": 2,
+      "gpu": 1,
+      "resolution": "1440p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 30,
+    "fields": {
+      "cpu": 3,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 31,
+    "fields": {
+      "cpu": 3,
+      "gpu": 1,
+      "resolution": "1440p",
+      "level": "Minor"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 32,
+    "fields": {
+      "cpu": 4,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 33,
+    "fields": {
+      "cpu": 4,
+      "gpu": 1,
+      "resolution": "1440p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 34,
+    "fields": {
+      "cpu": 5,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 35,
+    "fields": {
+      "cpu": 5,
+      "gpu": 1,
+      "resolution": "1440p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 36,
+    "fields": {
+      "cpu": 6,
+      "gpu": 1,
+      "resolution": "1080p",
+      "level": "Major"
+    }
+  },
+  {
+    "model": "compatibility.bottleneckexception",
+    "pk": 37,
+    "fields": {
+      "cpu": 6,
+      "gpu": 1,
+      "resolution": "1440p",
+      "level": "Major"
+    }
+  }
+]
