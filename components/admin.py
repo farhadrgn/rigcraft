@@ -2,7 +2,14 @@ from django.contrib import admin
 
 from .models import GPU, CPU, Motherboard, CPUCooler, RAM, Storage, PSU, Case, GPUBenchmark
 
-admin.site.register(GPU)
+from compatibility.admin import BottleneckExceptionInline
+
+
+class GPUAdmin(admin.ModelAdmin):
+    inlines = [BottleneckExceptionInline]
+
+
+admin.site.register(GPU, GPUAdmin)
 admin.site.register(CPU)
 admin.site.register(Motherboard)
 admin.site.register(CPUCooler)

@@ -17,11 +17,12 @@ messaging app).
 compatibility rules (socket matching, dual DDR support checks, cooler TDP/socket fit,
 physical GPU/radiator clearance, PSU headroom) run entirely server-side against a
 category-keyed selection, returning structured `{reason_code, message}` violations. A
-separate, purely informational bottleneck engine compares CPU/GPU benchmark percentiles
-with resolution-dependent sensitivity weighting. Both are backed by real, independently
-sourced data (PassMark CPU scores, TechPowerUp GPU specs, manufacturer spec sheets, and
-per-game FPS benchmarks from exo.ir) loaded into PostgreSQL — not placeholder or
-randomly generated data.
+separate, purely informational bottleneck engine looks up empirically observed
+CPU/GPU/resolution results from manually testing the full catalog, rather than computing
+a live formula (see "Design Decisions" below for why). Both are backed by real,
+independently sourced data (PassMark CPU scores, TechPowerUp GPU specs, manufacturer
+spec sheets, and per-game FPS benchmarks from exo.ir) loaded into PostgreSQL — not
+placeholder or randomly generated data.
 
 **A 9-step wizard with live, bidirectional-aware revalidation, built entirely in vanilla
 JavaScript.** As each component is picked, the wizard re-checks compatibility for every
@@ -46,7 +47,8 @@ leaking existence -- consistent with security-conscious API design.
 - `components/` -- the 8 hardware category models (GPU, CPU, Motherboard, CPUCooler,
   RAM, Storage, PSU, Case) plus `GPUBenchmark`, fixture data, and Django admin
 - `compatibility/` -- the 9 pure compatibility rule functions, the category-keyed
-  dispatcher, the bottleneck formula, and the `/builder/check/` JSON endpoint
+  dispatcher, the empirically-tested bottleneck lookup table, and the `/builder/check/`
+  JSON endpoint
 - `builds/` -- the `Build` model, the wizard view, save/list/detail/edit/delete views,
   and their templates
 - `users/` -- a custom `User` model (no extra fields, defined from day one to keep the
@@ -69,6 +71,7 @@ pip install -r requirements.txt  # or: pip install "Django>=5.2,<6.0" django-env
 # Create the database and role in psql, matching .env.example, then:
 python manage.py migrate
 python manage.py loaddata components/fixtures/components_data.json
+python manage.py loaddata compatibility/fixtures/bottleneck_exceptions.json
 python manage.py createsuperuser
 python manage.py runserver
 ```
@@ -78,12 +81,40 @@ own database credentials) before running the commands above.
 
 ## Design Decisions Worth Knowing About
 
-- **The bottleneck formula is a reasoned heuristic, not an industry-standard
-  benchmark model.** No official standard exists for quantifying "bottleneck severity."
-  The resolution-sensitivity multipliers and Minor/Major thresholds are estimates based
-  on the general principle that games lean more CPU-bound at 1080p and more GPU-bound at
-  4K -- they have not been calibrated against real review data. This is intentional and
-  disclosed rather than presented as authoritative.
+- **The bottleneck engine is an empirically tested lookup table, not a benchmark-ratio
+  formula -- and that wasn't the original design.** The first version compared each
+  CPU's and GPU's benchmark score as a percentage of the strongest part in its category,
+  then weighted the gap between those two percentages by a resolution-dependent
+  multiplier. That formula's output didn't hold up under scrutiny: it assumes a CPU's
+  single-thread benchmark score is a reliable stand-in for its real gaming performance,
+  and testing showed that assumption breaks down across different CPU microarchitectures.
+  Two concrete, independently documented examples surfaced while investigating: Intel's
+  Arrow Lake generation (Core Ultra 200S) is publicly known to underperform its own
+  benchmark scores in games relative to the previous generation, and AMD's dual-CCD
+  Ryzen 9 chips (9900X, 9950X) can score inconsistently against each other and against
+  weaker single-CCD siblings, due to documented cross-CCD latency and core-parking
+  behavior in early Zen 5 platforms. Neither pattern can be expressed by a formula built
+  on benchmark percentiles alone. So the formula was scrapped in favor of testing real
+  combinations directly: for each CPU microarchitecture family, the weakest CPU in the
+  catalog was tested against every GPU at every resolution first; if that weakest CPU
+  showed no bottleneck (or only a minor one), stronger CPUs in the same family were
+  assumed to do at least as well and were not individually tested, since a stronger part
+  in the same architecture shouldn't bottleneck where a weaker one already didn't. Every
+  case that did show a bottleneck, and every different architecture family, was tested
+  directly. The actual observed result for each tested case was recorded directly
+  (`BottleneckException` model, populated from a generated fixture, not hand-typed, to
+  avoid transcription errors). Any combination with no matching row -- whether tested and
+  passing, or inferred from a same-family weaker CPU passing -- defaults to Balanced.
+  Cyberpunk 2077 was chosen as the one reference game for this testing specifically
+  because it's a demanding, graphically-heavy AAA title without leaning as hard toward
+  either CPU-bound or GPU-bound extremes as some other games sampled during exploration,
+  keeping results reasonably representative rather than a best- or worst-case outlier.
+  The Balanced / Minor / Major cutoffs (94% / 84% GPU utilization observed at fixed
+  settings) are this project's own thresholds, not pulled from any third-party
+  classification scheme. **This table is a helpful reference, not a precise guarantee:**
+  it reflects one game at one settings profile (Ultra quality, no upscaling, no ray
+  tracing), and real bottleneck severity can shift meaningfully with a different game,
+  quality preset, or upscaling setting than what was tested here.
 - **Django server-rendered templates + vanilla JS, not React/DRF.** An earlier prototype
   used React, DRF, JWT auth, and Docker; that stack was deliberately abandoned in favor
   of this simpler, fully server-rendered architecture, matching the course's own
@@ -102,8 +133,12 @@ own database credentials) before running the commands above.
 - **Deployment.** This README describes local development only. No hosting, WSGI/ASGI
   production server, or environment-specific configuration beyond `DEBUG=False`
   readiness is included.
-- **Calibrating the bottleneck formula against real review/benchmark data.** The current
-  thresholds and multipliers are reasoned estimates, clearly documented as such above.
+- **Testing the bottleneck table against more than one reference game.** The lookup
+  table reflects observed results in a single title (Cyberpunk 2077) at fixed settings.
+  Real testing during development showed GPU utilization for identical hardware can swing
+  by 60+ percentage points between games depending on how CPU- or GPU-heavy a title is --
+  so these results are a reasonable single-game reference point, not a cross-game
+  average or a guarantee for every title.
 - **Automated linting/formatting tooling** (black, eslint/prettier) was not set up.
 - **API versioning, CI/CD, and OpenAPI/Swagger documentation** do not apply to this
   architecture at all -- there is no DRF/API layer to version or document. Their absence
