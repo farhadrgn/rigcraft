@@ -274,7 +274,7 @@ function renderViolations(violations) {
 
 function renderBottleneck(status) {
   document.getElementById("bottleneck-status").textContent = status
-    ? `Bottleneck: ${status}`
+    ? `Bottleneck: ${status.level} (${status.percent}% GPU utilization)`
     : "";
 }
 

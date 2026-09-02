@@ -241,17 +241,24 @@ class CheckCompatibilityDispatcherTests(TestCase):
 class ComputeBottleneckTests(TestCase):
     fixtures = ["components_data.json", "bottleneck_exceptions.json"]
 
-    def test_untested_combo_defaults_to_balanced(self):
+    def test_exact_100_percent_combo_defaults_to_balanced(self):
+        """Ryzen 5 7600X + RTX 5070 was tested and measured at exactly
+        100% -- no row was stored for it (matches the fallback exactly),
+        so this also verifies the no-row fallback path."""
         cpu = CPU.objects.get(name="AMD Ryzen 5 7600X")
         gpu = GPU.objects.get(name="NVIDIA GeForce RTX 5070")
-        self.assertEqual(compute_bottleneck(cpu, gpu, "1080p"), "Balanced")
+        result = compute_bottleneck(cpu, gpu, "1080p")
+        self.assertEqual(result["level"], "Balanced")
+        self.assertEqual(result["percent"], 100)
 
     def test_rtx5090_1080p_always_major(self):
         """Even the catalog's strongest CPU never breaks 84% GPU
         utilization against the RTX 5090 at 1080p."""
         cpu = CPU.objects.get(name="AMD Ryzen 9 9950X")
         gpu = GPU.objects.get(name="NVIDIA GeForce RTX 5090")
-        self.assertEqual(compute_bottleneck(cpu, gpu, "1080p"), "Major")
+        result = compute_bottleneck(cpu, gpu, "1080p")
+        self.assertEqual(result["level"], "Major")
+        self.assertEqual(result["percent"], 76)
 
     def test_dual_ccd_9900x_regression(self):
         """Ryzen 9 9900X (asymmetric dual-CCD, 6 active cores/CCD) tests
@@ -260,17 +267,23 @@ class ComputeBottleneckTests(TestCase):
         data, not an error -- guards against 'cleaning up' it away."""
         cpu = CPU.objects.get(name="AMD Ryzen 9 9900X")
         gpu = GPU.objects.get(name="NVIDIA GeForce RTX 5080")
-        self.assertEqual(compute_bottleneck(cpu, gpu, "1080p"), "Minor")
+        result = compute_bottleneck(cpu, gpu, "1080p")
+        self.assertEqual(result["level"], "Minor")
+        self.assertEqual(result["percent"], 87)
 
     def test_arrow_lake_minor_on_rx9070(self):
         cpu = CPU.objects.get(name="Intel Core Ultra 5 245K")
         gpu = GPU.objects.get(name="AMD Radeon RX 9070")
-        self.assertEqual(compute_bottleneck(cpu, gpu, "1080p"), "Minor")
+        result = compute_bottleneck(cpu, gpu, "1080p")
+        self.assertEqual(result["level"], "Minor")
+        self.assertEqual(result["percent"], 93)
 
     def test_resolution_shifts_result_toward_balanced(self):
-        """Same pair: bottleneck at 1080p, resolves by 4K."""
+        """Same pair: bottleneck at 1080p and 1440p, resolves by 4K."""
         cpu = CPU.objects.get(name="Intel Core Ultra 5 245K")
         gpu = GPU.objects.get(name="NVIDIA GeForce RTX 5090")
-        self.assertEqual(compute_bottleneck(cpu, gpu, "1080p"), "Major")
-        self.assertEqual(compute_bottleneck(cpu, gpu, "1440p"), "Major")
-        self.assertEqual(compute_bottleneck(cpu, gpu, "4K"), "Balanced")
+        self.assertEqual(compute_bottleneck(cpu, gpu, "1080p")["level"], "Major")
+        self.assertEqual(compute_bottleneck(cpu, gpu, "1440p")["level"], "Major")
+        result_4k = compute_bottleneck(cpu, gpu, "4K")
+        self.assertEqual(result_4k["level"], "Balanced")
+        self.assertEqual(result_4k["percent"], 100)

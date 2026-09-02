@@ -4,7 +4,7 @@
 <h1>{{ build.name }}</h1>
 <p class="text-body-secondary">Target resolution: <span class="rc-mono">{{ build.target_resolution }}</span></p>
 {% if bottleneck_status %}
-<p class="text-body-secondary">Bottleneck: {{ bottleneck_status }}</p>
+<p class="text-body-secondary">Bottleneck: {{ bottleneck_status.level }} ({{ bottleneck_status.percent }}% GPU utilization)</p>
 {% endif %}
 
 <div class="row g-3 mt-2">

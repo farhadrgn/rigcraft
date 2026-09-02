@@ -187,7 +187,8 @@ from .models import BottleneckException
 
 
 def compute_bottleneck(cpu, gpu, resolution):
-    """Look up the empirically observed bottleneck level.
+    """Look up the empirically observed bottleneck level and GPU
+    utilization percentage.
 
     Purely informational -- never blocks a build selection. See
     BottleneckException for the testing methodology this is built from.
@@ -195,4 +196,6 @@ def compute_bottleneck(cpu, gpu, resolution):
     exception = BottleneckException.objects.filter(
         cpu=cpu, gpu=gpu, resolution=resolution
     ).first()
-    return exception.level if exception else "Balanced"
+    if exception:
+        return {"level": exception.level, "percent": exception.gpu_utilization_percent}
+    return {"level": "Balanced", "percent": 100}

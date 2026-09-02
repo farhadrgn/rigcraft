@@ -6,4 +6,4 @@ from .models import BottleneckException
 class BottleneckExceptionInline(admin.TabularInline):
     model = BottleneckException
     extra = 1
-    fields = ["cpu", "resolution", "level"]
+    fields = ["cpu", "resolution", "gpu_utilization_percent"]
