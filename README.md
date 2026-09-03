@@ -11,7 +11,11 @@ Built as my final project for CS50W.
 
 This project is neither an e-commerce site nor a social network / forum, and it is not a
 close relative of any other project in the course (it is not a to-do list, blog, or
-messaging app).
+messaging app). It may look e-commerce-adjacent at a glance -- a user picks hardware
+components, after all -- but there is no cart, checkout, payment, pricing, or purchasing
+flow anywhere in the app; every screen answers "will these parts work together," never
+"how much does this cost" or "how do I buy it." That's a deliberate scope boundary, not
+an oversight (see "Deliberately Out of Scope" below).
 
 **A real, multi-rule constraint-satisfaction engine, not a form.** Nine independent
 compatibility rules (socket matching, dual DDR support checks, cooler TDP/socket fit,
