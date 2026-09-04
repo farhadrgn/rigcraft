@@ -152,4 +152,4 @@ own database credentials) before running the commands above.
 
 ## Demo Video
 
-[Link to be added after recording.]
+[RigCraft demo video](https://youtu.be/JJcLvYzh9n8)
