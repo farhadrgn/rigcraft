@@ -65,7 +65,7 @@ leaking existence -- consistent with security-conscious API design.
 
 ## How to Run Locally
 
-Requires Python 3.14, PostgreSQL 17, and no other services (no Docker, no Node).
+Requires Python 3.14, PostgreSQL 18, and no other services.
 
 ```bash
 python -m venv venv
@@ -101,13 +101,13 @@ own database credentials) before running the commands above.
   on benchmark percentiles alone. So the formula was scrapped in favor of testing real
   combinations directly: for each CPU microarchitecture family, the weakest CPU in the
   catalog was tested against every GPU at every resolution first; if that weakest CPU
-  showed no bottleneck (or only a minor one), stronger CPUs in the same family were
+  showed no bottleneck, stronger CPUs in the same family were
   assumed to do at least as well and were not individually tested, since a stronger part
   in the same architecture shouldn't bottleneck where a weaker one already didn't. Every
   case that did show a bottleneck, and every different architecture family, was tested
   directly. The actual observed result for each tested case was recorded directly
-  (`BottleneckException` model, populated from a generated fixture, not hand-typed, to
-  avoid transcription errors). Any combination with no matching row -- whether tested and
+  (`BottleneckException` model, populated from a created fixture, hand-typed).
+  Any combination with no matching row -- whether tested and
   passing, or inferred from a same-family weaker CPU passing -- defaults to Balanced.
   Cyberpunk 2077 was chosen as the one reference game for this testing specifically
   because it's a demanding, graphically-heavy AAA title without leaning as hard toward
@@ -119,10 +119,6 @@ own database credentials) before running the commands above.
   it reflects one game at one settings profile (Ultra quality, no upscaling, no ray
   tracing), and real bottleneck severity can shift meaningfully with a different game,
   quality preset, or upscaling setting than what was tested here.
-- **Django server-rendered templates + vanilla JS, not React/DRF.** An earlier prototype
-  used React, DRF, JWT auth, and Docker; that stack was deliberately abandoned in favor
-  of this simpler, fully server-rendered architecture, matching the course's own
-  Django-based projects and keeping the whole stack auditable without a build step.
 - **GPU catalog intentionally limited to the RTX 50 series and RX 9000 series** (9 cards
   total) rather than an exhaustive historical catalog, to keep the dataset a deliberately
   curated, verifiable sample rather than a sprawling and harder-to-verify one.
@@ -134,21 +130,12 @@ own database credentials) before running the commands above.
 
 ## Deliberately Out of Scope
 
-- **Deployment.** This README describes local development only. No hosting, WSGI/ASGI
-  production server, or environment-specific configuration beyond `DEBUG=False`
-  readiness is included.
 - **Testing the bottleneck table against more than one reference game.** The lookup
   table reflects observed results in a single title (Cyberpunk 2077) at fixed settings.
   Real testing during development showed GPU utilization for identical hardware can swing
   by 60+ percentage points between games depending on how CPU- or GPU-heavy a title is --
   so these results are a reasonable single-game reference point, not a cross-game
   average or a guarantee for every title.
-- **Automated linting/formatting tooling** (black, eslint/prettier) was not set up.
-- **API versioning, CI/CD, and OpenAPI/Swagger documentation** do not apply to this
-  architecture at all -- there is no DRF/API layer to version or document. Their absence
-  is a consequence of the Django-templates architecture choice, not an oversight.
-- **Pricing/shop links and a JS-framework or DRF-based rebuild** were considered and
-  consciously set aside; either could be revisited later as a distinct, separate effort.
 
 ## Demo Video
 
