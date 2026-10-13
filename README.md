@@ -67,12 +67,33 @@ leaking existence -- consistent with security-conscious API design.
 
 Requires Python 3.14, PostgreSQL 18, and no other services.
 
-```bash
-python -m venv venv
-venv\Scripts\Activate.ps1        # Windows PowerShell
-pip install -r requirements.txt  # or: pip install "Django>=5.2,<6.0" django-environ psycopg2-binary
+**1. Install dependencies**
 
-# Create the database and role in psql, matching .env.example, then:
+```
+python -m venv venv
+venv\Scripts\Activate.ps1        # Windows PowerShell (macOS/Linux: source venv/bin/activate)
+pip install -r requirements.txt
+```
+
+**2. Create the database** (in `psql`, as the `postgres` user)
+
+```sql
+CREATE ROLE rigcraft WITH LOGIN PASSWORD 'choose-a-password' CREATEDB;
+CREATE DATABASE rigcraft OWNER rigcraft;
+```
+
+`CREATEDB` lets Django create a temporary database when running the tests.
+
+**3. Configure the environment**
+
+Copy `.env.example` to `.env` (`Copy-Item .env.example .env` on Windows, `cp .env.example .env` elsewhere) and set:
+
+- `SECRET_KEY`: generate one with `python -c "import secrets; print(secrets.token_urlsafe(50))"`
+- `DATABASE_URL`: `postgres://rigcraft:choose-a-password@localhost:5432/rigcraft`
+
+**4. Load the data and run**
+
+```
 python manage.py migrate
 python manage.py loaddata components/fixtures/components_data.json
 python manage.py loaddata compatibility/fixtures/bottleneck_exceptions.json
@@ -80,8 +101,13 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Copy `.env.example` to `.env` and fill in real values (a generated `SECRET_KEY` and your
-own database credentials) before running the commands above.
+Then open http://127.0.0.1:8000/.
+
+**5. Run the tests**
+
+```
+python manage.py test
+```
 
 ## Design Decisions Worth Knowing About
 
