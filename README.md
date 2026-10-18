@@ -1,3 +1,5 @@
+   **English** | [فارسی](README.fa.md)
+   
 # RigCraft
 
 A PC gaming component compatibility checker and build planner, built with Django. Users
