@@ -1,5 +1,5 @@
    **English** | [فارسی](README.fa.md)
-   
+
 # RigCraft
 
 A PC gaming component compatibility checker and build planner, built with Django. Users
@@ -19,7 +19,7 @@ flow anywhere in the app; every screen answers "will these parts work together,"
 "how much does this cost" or "how do I buy it." That's a deliberate scope boundary, not
 an oversight (see "Deliberately Out of Scope" below).
 
-**A real, multi-rule constraint-satisfaction engine, not a form.** Nine independent
+**A real, multi-rule compatibility engine, not a form.** Nine independent
 compatibility rules (socket matching, dual DDR support checks, cooler TDP/socket fit,
 physical GPU/radiator clearance, PSU headroom) run entirely server-side against a
 category-keyed selection, returning structured `{reason_code, message}` violations. A
