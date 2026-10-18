@@ -23,10 +23,10 @@ physical GPU/radiator clearance, PSU headroom) run entirely server-side against 
 category-keyed selection, returning structured `{reason_code, message}` violations. A
 separate, purely informational bottleneck engine looks up empirically observed
 CPU/GPU/resolution results from manually testing the full catalog, rather than computing
-a live formula (see "Design Decisions" below for why). Both are backed by real,
-independently sourced data (PassMark CPU scores, TechPowerUp GPU specs, manufacturer
-spec sheets, and per-game FPS benchmarks from exo.ir) loaded into PostgreSQL — not
-placeholder or randomly generated data.
+a live formula (see "Design Decisions" below for why). The compatibility rules run
+against real component data loaded into PostgreSQL, compiled from named sources (see
+"Data Sources" below) -- not placeholder or randomly generated data. The bottleneck
+table is the result of my own manual testing.
 
 **A 9-step wizard with live, bidirectional-aware revalidation, built entirely in vanilla
 JavaScript.** As each component is picked, the wizard re-checks compatibility for every
@@ -162,6 +162,29 @@ python manage.py test
   by 60+ percentage points between games depending on how CPU- or GPU-heavy a title is --
   so these results are a reasonable single-game reference point, not a cross-game
   average or a guarantee for every title.
+
+## Data Sources
+
+The component catalog is a small sample compiled manually from publicly available pages
+and spec sheets, for educational and portfolio purposes:
+
+- **CPU single-thread ratings (12 CPUs):** PassMark Software (cpubenchmark.net)
+- **CPU sockets and TDP:** Intel ARK and AMD product pages
+- **Motherboard specifications:** ASUS, MSI and Gigabyte product pages
+- **GPU specifications (VRAM, TDP, length):** NVIDIA and AMD launch specifications; the
+  RTX 5090 entry was cross-checked against TechPowerUp
+- **GPU 3D benchmark scores and per-game FPS figures:** exo.ir (the FPS tables are based
+  on TechPowerUp data)
+- **Coolers, RAM, storage, PSUs and cases:** manufacturer spec sheets
+
+Values were compiled manually and spot-checked, not exhaustively verified; some figures
+(for example cooler TDP ratings or case GPU clearance) may differ slightly from the exact
+model's official specification.
+
+The source code is my own work. The data above remains the property of its respective
+sources, is included for non-commercial demonstration only, and is not covered by any
+license applied to the code. If you are a rights holder and would like something removed,
+please open an issue and it will be taken down promptly.
 
 ## Demo Video
 
